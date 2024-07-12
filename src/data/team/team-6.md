@@ -3,7 +3,7 @@
 image: /images/team-5-1000x1357.jpg
 name: Lina Watson
 role: Art Director
-first_letter: L
+first_letter: 
 social:
   - link: https://facebook.com/
     icon: fab fa-facebook-f

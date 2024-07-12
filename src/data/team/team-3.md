@@ -3,7 +3,7 @@
 image: /images/footerGallery/022.webp
 name: Ajay Adlakha
 role: 
-first_letter: A
+first_letter: 
 social:
   - link: https://facebook.com/
     icon: fab fa-facebook-f

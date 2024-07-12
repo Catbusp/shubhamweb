@@ -3,7 +3,7 @@
 image: /images/footerGallery/010.jpg
 name: Satyendra Mallik
 role:
-first_letter: S
+first_letter: 
 social:
   - link: https://facebook.com/
     icon: fab fa-facebook-f

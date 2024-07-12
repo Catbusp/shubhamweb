@@ -3,7 +3,7 @@
 image: /images/footerGallery/007.webp
 name: Ayush Anand
 role: 
-first_letter: A
+first_letter: 
 social:
   - link: https://facebook.com/
     icon: fab fa-facebook-f

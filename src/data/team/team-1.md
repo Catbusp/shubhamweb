@@ -3,7 +3,7 @@
 image: /images/footerGallery/012.webp
 name: Harshita Adlakha
 role: 
-first_letter: H
+first_letter: 
 social:
   - link: https://facebook.com/
     icon: fab fa-facebook-fs
