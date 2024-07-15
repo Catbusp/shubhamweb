@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import appData from "@data/app.json";
-
 import '../styles/scss/style.scss';
 import "../styles/globals.css";
 

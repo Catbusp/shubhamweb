@@ -7800,6 +7800,13 @@ transition: 0.4s;
 	margin: auto;
 }
 
+.roundbase>div >img{
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+	// align-items: center;
+	border-radius: 50%;
+}
 /* ---
 	Skin Options
 ---*/

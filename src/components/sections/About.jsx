@@ -1,5 +1,6 @@
 import Data from "@data/sections/about.json";
 import Link from "next/link";
+import Side_about from '../../../public/images/team/004_pop.png'
 
 const AboutSection = () => {
     return (
@@ -56,18 +57,20 @@ const AboutSection = () => {
                 </div>
 
               </div>
+
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 hide-on-mobile">
-                {/* Number */}
-                <div className="onovo-number onovo-circle-text mrg-right">
+                  <img src={Side_about.src} alt="" />
+                {/* <div className="onovo-number onovo-circle-text mrg-right">
                   <div className="num onovo-text-white">
                     <span>{Data.number.value}</span>
                   </div>
                   <div className="label onovo-text-black onovo-circle-text-label white-head">
                     {Data.number.label}
                   </div>
-                </div>
-
+                </div> */}
               </div>
+
+
             </div>
           </div>
         </section>
