@@ -15,12 +15,24 @@ const Companies = () => {
 									<img src={e.image} alt={e.alt} className={e.classn} />
 							})} */}
 							<img src={Mainlogo.src} alt="" />
+							<div className="desc_text text-center text-white">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Commodi neque fugiat tenetur vero laborum ratione voluptatem.
+							</div>
 						</div>
 						<div className="col-xs-12 col-sm-12 col-md-9 col-lg-4 brandshaala">
 							<img src={Brandshaala.src} alt="" />
+							<div className="desc_text text-center text-white">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Commodi neque fugiat tenetur vero laborum ratione voluptatem.
+							</div>
 						</div>
 						<div className="col-xs-12 col-sm-12 col-md-9 col-lg-4 printsmith">
 							<img src={Printsmith.src} alt="" />
+							<div className="desc_text text-center text-white">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Commodi neque fugiat tenetur vero laborum ratione voluptatem.
+							</div>
 						</div>
 					</div>
 				</div>

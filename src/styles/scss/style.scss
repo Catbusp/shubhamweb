@@ -7762,11 +7762,12 @@ transition: 0.4s;
 .cls-2 {
 	filter: url(#luminosity-noclip);
 }
-.onovo-showcase-item .title a:visited{
-	
-}
 
-.stats-img{
+// .onovo-showcase-item .title a:visited{
+	
+// }
+
+.stats-img {
 	max-width: 70%;
 	text-align: center;
 	margin: auto;
@@ -7778,11 +7779,38 @@ transition: 0.4s;
 	flex-direction: column;
 	height: 400px;
 	background: linear-gradient(180deg, rgba(251,200,14,1) 29%, rgba(213,0,248,1) 100%);
+	z-index: 99;
+	opacity: 1;
+	padding: 60px;
 }
-
+.desc_text{
+	opacity: 0;
+	display: none;
+	transition: top 1s ease;
+}
+.infinity>img:hover,.brandshaala>img:hover,.printsmith>img:hover{
+	cursor: pointer;
+	transition: 0.3s;
+}
+.infinity>img:hover + .desc_text{
+	display: block;
+	transition: 0.3s;
+	opacity: 1;
+}
+.brandshaala>img:hover + .desc_text{
+	display: block;
+	transition: 0.3s;
+	opacity: 1;
+}
+.printsmith>img:hover + .desc_text{
+	display: block;
+	transition: 0.3s;
+	opacity: 1;
+}
 .brandshaala{
 	// width: 100%;
 	display: flex;
+	padding: 60px;
 	flex-direction: column;
 	height: 400px;
 	background: linear-gradient(180deg, rgba(9,255,137,1) 0%, rgba(255,218,122,1) 75%);
@@ -7791,12 +7819,14 @@ transition: 0.4s;
 .printsmith{
 	// width: 100%;
 	display: flex;
+	padding: 60px;
 	flex-direction: column;
 	height: 400px;
 	background: linear-gradient(180deg, rgba(41,148,248,1) 0%, rgba(255,94,180,1) 75%);
 }
 
 .printsmith>img,.infinity>img,.brandshaala>img{
+	// height: 100px;
 	margin: auto;
 }
 
@@ -7806,6 +7836,9 @@ transition: 0.4s;
 	// justify-content: center;
 	// align-items: center;
 	border-radius: 50%;
+}
+.top_slider>img{
+	margin: 0px 50px
 }
 /* ---
 	Skin Options
