@@ -89,14 +89,14 @@ const AboutSection = () => {
 
               <div className="row">
                 {Data.items.map((item, key) => (
-                  <div key={`about-item-${key}`} className="col-xs-12 col-sm-12 col-md-6 col-lg-11">
+                  <div key={`about-item-${key}`} className="col-xs-12 col-sm-12 col-md-11 col-lg-11">
                     <h5 className="text-uppercase white-head">{item.title}</h5>
                     <p dangerouslySetInnerHTML={{ __html: item.text }} />
                   </div>
                 ))}
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 side_about_img">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 side_about_img">
               <img src={Side_about.src} className='w-100' alt="" />
             </div>
           </div>

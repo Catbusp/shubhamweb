@@ -645,7 +645,7 @@ h6.onovo-title-3,
 	h6.onovo-title-2,
 	.onovo-title-2 {
 		margin: 0;
-		font-size: 38px;
+		font-size: 30px;
 	}
 	h1.onovo-title-3,
 	h2.onovo-title-3,
@@ -1069,6 +1069,9 @@ hr {
 		margin-bottom: 30px;
 		float: none;
 		max-width: 100%;
+	}
+	.js-reviews-carousel-navs{
+		left: 5%;
 	}
 	.alignleft {
 		margin-right: 0px;
@@ -3120,17 +3123,23 @@ ul.onovo-footer-menu li {
 
 @media (max-width: 1024px) {
 	.footer--fixed .wrapper {
-		padding-bottom: 80px;
+		// padding-bottom: 80px;
 		margin-bottom: 0!important;
 	}
 	.footer--fixed .onovo-footer, .footer--sticky .onovo-footer {
 		position: relative;
+	}
+	.onovo-showcase-item >div.image>span {
+		bottom: 0;
 	}
 }
 
 @media (max-width: 767px) {
 	.onovo-footer .copyright {
 		font-size: 16px;
+	}
+	.printsmith,.brandshaala,.infinity{
+		height: 300px;
 	}
 	.onovo-footer ul.onovo-footer-menu li {
 		font-size: 16px;
@@ -4962,8 +4971,11 @@ ul.onovo-footer-menu li {
 	}
 	.onovo-showcase-item {
 		flex-wrap: wrap;
-		padding-bottom: 30px;
-		padding-top: 30px;
+		// padding-bottom: 30px;
+		// padding-top: 30px;
+	}
+	.onovo-showcase-item > h3.title{
+		font-size: 24px;
 	}
 	.onovo-showcase-item:first-child {
 		padding-top: 0;
@@ -4985,8 +4997,11 @@ ul.onovo-footer-menu li {
 		padding: 0;
 		color: #000;
 	}
+	.title h3{
+		margin-top: -100px;
+	}
 	.onovo-showcase-item .image {
-		margin-bottom: 30px;
+		// margin-bottom: 30px;
 		position: relative;
 		top: 0;
 		right: auto;
@@ -4998,6 +5013,11 @@ ul.onovo-footer-menu li {
 		transform: none;
 		-webkit-transform: none;
 		pointer-events: auto;
+	}
+	.onovo-showcase-item .image .img {
+		margin: auto;
+		width: 50%;
+		height: 60%;
 	}
 	.onovo-showcase-item.hover .image {
 		opacity: 1;
@@ -5217,7 +5237,7 @@ ul.onovo-footer-menu li {
 
 .onovo-reviews-carousel {
 	// border-left: 1px solid #000;
-	padding-left: 55px;
+	padding-left: 0px;
 }
 
 .onovo-reviews-carousel .swiper-wrapper {
@@ -5322,6 +5342,7 @@ ul.onovo-footer-menu li {
 	.js-reviews-carousel-navs {
 		margin-top: 30px;
 		position: relative;
+		left: 6%;
 	}
 	.onovo-reviews-carousel.reviews--full .js-reviews-carousel-navs {
 		margin-top: -33px;
@@ -5343,7 +5364,7 @@ ul.onovo-footer-menu li {
 	}
 	.onovo-reviews-carousel {
 		margin: 30px 0 0 0;
-		padding-left: 30px;
+		padding-left: 0px;
 	}
 	.onovo-reviews-item .text {
 		font-size: 18px;
