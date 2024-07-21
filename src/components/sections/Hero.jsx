@@ -6,6 +6,7 @@ import 'splitting/dist/splitting.css'
 import 'splitting/dist/splitting-cells.css'
 import Splitting from 'splitting'
 import ScrollOut from 'scroll-out'
+import Modal from "./Modal";
 
 const HeroSection = () => {
 	useEffect(() => {
@@ -36,6 +37,9 @@ const HeroSection = () => {
 		e.preventDefault();
     	setMute(!mute);
 	};
+	
+	const [modal, setModal] = useState(false);
+	const Toggle = () => setModal(!modal);
 
     return (
         <>
@@ -63,7 +67,8 @@ const HeroSection = () => {
                             </div>
 						</div>
 					</div>
-					{/* <a href="#" className={mute ? "onovo-play-btn active" : "onovo-play-btn"} onClick={(e) => clickedMuteHeroVideo(e) }>
+					{/* <a href="#" className={mute ? "onovo-play-btn active" : "onovo-play-btn"} onClick={(e) => clickedMuteHeroVideo(e) }> */}
+					<a href="#" className="clickme onovo-play-btn" onClick={() => Toggle()}>
 						<span className="play-circles" />
 						<span className="play-lines">
 							<span />
@@ -71,7 +76,12 @@ const HeroSection = () => {
 							<span />
 							<span />
 						</span>
-					</a> */}
+					</a>
+					
+					<Modal show={modal} title="My Modal" close={Toggle}>
+							This is Modal content
+					</Modal>
+
 				</div>
 			</section>
         </>
