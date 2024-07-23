@@ -52,14 +52,14 @@ const HeroSection = () => {
 					<div className="ovrl" style={{"opacity": "0.25"}} />
 				</div>
 				<div className="container">
-					<h1 className="title onovo-text-white">
+					<h2 className="title onovo-text-white">
 						<span data-splitting data-onovo-scroll>
                             <span dangerouslySetInnerHTML={{__html: Data.title.text}} />
                             <span className="onovo-sep word">
 								<i className="sep-img" style={{"backgroundImage": "url("+Data.title.icon+")"}} />
 							</span>
 						</span>
-					</h1>
+					</h2>
 					<div className="text">
 						<div className="subtitle onovo-text-white">
 							<div data-splitting data-onovo-scroll>
@@ -78,7 +78,7 @@ const HeroSection = () => {
 						</span>
 					</a>
 					
-					<Modal show={modal} title="My Modal" close={Toggle}>
+					<Modal show={modal} title="My Modal" close={Toggle} >
 							This is Modal content
 					</Modal>
 

@@ -18,16 +18,16 @@ const DefaultFooter = () => {
 
                     <div className="row">
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
                                 <h5>Information</h5>
-                                <p style={{"opacity": "0.6"}}>Let's foster curiosity, dive deep, and explore how the videos we create together can positively transform your business. </p>
+                                <p style={{"opacity": "0.6"}}>We’re all about creativity and team up with brands chasing that next-level perfection. Looking to amaze your audience with standout content? 
+We’d be pumped to be your go-to video partner.
+</p>
                             </div>
 
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 offset-lg-1">
-
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
                                 <h5>Get in Touch</h5>

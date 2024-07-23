@@ -5,20 +5,8 @@ import { headerSticky } from "@common/utilits";
 
 const DefaultHeader = ({ darkHeader, cartButton }) => {
   const navItems = [];
-
-  appData.header.menu.forEach((item, index) => {
-    let s_class1 = 'dropdown-link';
-
-    if ( item.children != 0 ) {
-      s_class1 += 'menu-item-has-children';
-    }
-    let newobj = Object.assign({}, item, { "classes" :  s_class1 });
-    navItems.push(newobj);
-  });
-  
-  const [desktopMenu, desktopMenuToggle] = useState(false);
-
   const clickedDesktopMenu = (e) => {
+  
     e.preventDefault();
     desktopMenuToggle(!desktopMenu);
     
@@ -55,6 +43,20 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
 		}
 
   }
+  appData.header.menu.forEach((item, index) => {
+    let s_class1 = 'dropdown-link';
+
+    if ( item.children != 0 ) {
+      s_class1 += 'menu-item-has-children';
+    }
+    let newobj = Object.assign({}, item, { "classes" :  s_class1 });
+    navItems.push(newobj);
+    
+  });
+  
+  const [desktopMenu, desktopMenuToggle] = useState(false);
+
+
   const clickedMobileMenuItemParent = (e) => {
     e.preventDefault();
     e.target.parentNode.classList.toggle('opened');
@@ -133,7 +135,13 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                   </i>
                 </Link> */}
                  {/* Menu Hamburger */}
-                 <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /></a>
+                 {/* <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /><span /></a> */}
+                 <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</a>
 
                   <div className="onovo-menu-popup align-left">
                     <div className="onovo-menu-overlay" />
@@ -144,7 +152,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                         <div className="onovo-menu">
                           <ul className="onovo-menu-nav">
                             {navItems.map((item, key) => (
-                            <li key={`header-nav-item-${key}`} className={item.classes}>
+                            <li key={`header-nav-item-${key}`} className={item.classes} onClick={(e)=>clickedDesktopMenu(e)}>
                               <Link className={item.children ? "onovo-lnk lnk--active onovo-dropdown-toggle" : "onovo-lnk lnk--active"} onClick={item.children != 0 ? (e) => clickedMobileMenuItemParent(e) : ""} href={item.link}>{item.label}</Link>
                               {item.children != 0 &&
                               <i className="icon fas fa-chevron-down" />

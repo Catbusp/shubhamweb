@@ -1,29 +1,121 @@
-import React from 'react';
-import Close from './svgs/close.png';
+import React from "react";
+import { useMediaQuery } from 'react-responsive';
 
-const Modal = ({ show, close, title, children }) => {
+const Modal1 = ({ show, close, title }) => {
+  const isSmallScreen = useMediaQuery({ maxWidth: 767 });
   if (!show) {
     return null;
   }
 
   return (
-    <div className="modalContainer" onClick={close}>
-      <div className="modal" onClick={(e) => e.stopPropagation()}>
-        <header className="modal_header">
-          <h2 className="modal_header-title">{title}</h2>
-          <button className="close" onClick={close}>
-            <img src={Close.src} alt="close" />
-          </button>
-        </header>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/KXItezz-BhA?si=ryhPNoRJWM89mDPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <footer className="modal_footer">
-          <button className="modal-close" onClick={close}>
-            Cancel
-          </button>
-        </footer>
-      </div>
+    <div
+      className='modal show'
+      onClick={close}
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+        position: "fixed",
+        top: 30,
+        left: 0,
+        width: "100%",
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        zIndex: 1050,
+        border: "none",
+      }}
+    >
+      {
+        isSmallScreen ?  <div
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          width: "90%",
+          height: "60%",
+          display: "flex",
+          flexDirection: "column",
+          position: "relative",
+          borderRadius: "8px",
+          overflow: "hidden",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            padding: "10px 20px",
+            borderBottom: "1px solid #dee2e6",
+          }}
+        ></div>
+
+        <div
+          style={{
+            flex: 1,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: 0,
+          }}
+        >
+          <iframe
+            width='100%'
+            height='100%'
+            src='https://www.youtube.com/embed/KXItezz-BhA?autoplay=1&mute=1&loop=1&si=ryhPNoRJWM89mDPk'
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            referrerPolicy='strict-origin-when-cross-origin'
+            allowFullScreen
+            style={{ border: "none" }}
+          ></iframe>
+        </div>
+      </div>:
+       <div
+       onClick={(e) => e.stopPropagation()}
+       style={{
+         width: "90%",
+         height: "90%",
+         display: "flex",
+         flexDirection: "column",
+         position: "relative",
+         borderRadius: "8px",
+         overflow: "hidden",
+       }}
+     >
+       <div
+         style={{
+           display: "flex",
+           justifyContent: "space-between",
+           alignItems: "center",
+           padding: "10px 20px",
+           borderBottom: "1px solid #dee2e6",
+         }}
+       ></div>
+
+       <div
+         style={{
+           flex: 1,
+           display: "flex",
+           justifyContent: "center",
+           alignItems: "center",
+           padding: 0,
+         }}
+       >
+         <iframe
+           width='100%'
+           height='100%'
+           src='https://www.youtube.com/embed/KXItezz-BhA?autoplay=1&mute=1&&loop=1&si=ryhPNoRJWM89mDPk'
+           title='YouTube video player'
+           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+           referrerPolicy='strict-origin-when-cross-origin'
+           allowFullScreen
+           style={{ border: "none" }}
+         ></iframe>
+       </div>
+     </div>
+      }
+     
     </div>
   );
 };
 
-export default Modal;
+export default Modal1;

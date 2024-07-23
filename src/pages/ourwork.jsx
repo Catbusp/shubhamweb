@@ -83,6 +83,7 @@ export default Ourwork;
 export async function getStaticProps() {
   const allTeam = getSortedTeamData();
   const allServices = getSortedServicesData();
+  console.log(allTeam,allServices,"allTeam,allServices")
 
   return {
     props: {

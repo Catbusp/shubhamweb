@@ -1,10 +1,31 @@
 import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
-import Accordion from 'react-bootstrap/Accordion';
+// import Accordion from 'react-bootstrap/Accordion';
 import appData from "@data/app.json";
 import { Formik } from 'formik';
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_hsj3gyh', 'template_zlf6nnl', form.current, {
+        publicKey: 'Bh_9DyMEo8DkVXycy',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error);
+        },
+      );
+  };
+
   const faqData = {
     "title": "Client’s FAQ",
     "subtitle": "Solving Business Problems <br>is An Everyday",
@@ -30,7 +51,7 @@ const Contact = () => {
 
   return (
     <Layouts>
-        <PageBanner pageTitle={"Contact Us"} pageDesc={"Spotlight on a brand that demands attention."} />
+        <PageBanner pageTitle={"YOU’RE HERE RIGHT ON TIME"} pageDesc={"DROP US A MESSAGE."} />
 
         {/* Onovo Contact Info */}
         <section className="onovo-section gap-top-140">
@@ -40,13 +61,75 @@ const Contact = () => {
 
                         {/* Heading */}
                         <div className="onovo-text gap-bottom-40">
-                            <h4>Discover the next big thing?</h4>
-                            Then share your insights with us
+                            <h4>Planned to Discuss Your Business With Us?</h4>
+                            Step In And Share Your Details
                         </div>
 
                         {/* Form */}
                         <div className="onovo-form">
-                        <Formik
+                            <form ref={form} onSubmit={sendEmail}>
+                                <div className="row">
+                                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <p>
+                                            <input 
+                                              placeholder="Full Name" 
+                                              type="text" 
+                                              name="name" 
+                                              required="required"
+                                            //   onChange={handleChange}
+                                            //   onBlur={handleBlur}
+                                            //   value={values.name}
+                                            />
+                                        </p>
+                                    </div>
+                                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <p>
+                                            <input 
+                                              placeholder="Email Address" 
+                                              type="email" 
+                                              name="email" 
+                                              required="required"
+                                            //   onChange={handleChange}
+                                            //   onBlur={handleBlur}
+                                            //   value={values.email}
+                                            />
+                                        </p>
+                                    </div>
+                                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <p>
+                                            <input 
+                                              placeholder="Phone Number" 
+                                              type="tel" 
+                                              name="tel" 
+                                              required="required"
+                                            //   onChange={handleChange}
+                                            //   onBlur={handleBlur}
+                                            //   value={values.tel}
+                                            />
+                                        </p>
+                                    </div>
+                                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <p>
+                                            <textarea 
+                                              placeholder="Message" 
+                                              name="message"
+                                              required="required"
+                                            //   onChange={handleChange}
+                                            //   onBlur={handleBlur}
+                                            //   value={values.message}
+                                            />
+                                        </p>
+                                    </div>
+                                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <p>
+                                            <button type="submit" className="onovo-btn onovo-hover-btn">
+                                                <span>Send Message</span>
+                                            </button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </form>
+                        {/* <Formik
                             initialValues = {{ email: '', name: '', tel: '', message: '' }}
                             validate = { values => {
                                 const errors = {};
@@ -103,7 +186,7 @@ const Contact = () => {
                                 handleBlur,
                                 handleSubmit,
                                 isSubmitting,
-                                /* and other goodies */
+                            
                             }) => (
                             <form onSubmit={handleSubmit} id="contactForm" action={appData.settings.formspreeURL} className="cform" method="post">
                                 <div className="row">
@@ -170,7 +253,7 @@ const Contact = () => {
                                 <div className="form-status alert-success" id="contactFormStatus" />
                             </form>
                             )}
-                            </Formik>
+                            </Formik> */}
                         </div>
 
                     </div>

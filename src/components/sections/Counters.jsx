@@ -17,7 +17,7 @@ const CountersSection = () => {
 							<span>{Data.subtitle}</span>
 						</div> */}
 						<h2 className="onovo-title-2">
-							<span>OUR IMPACT</span>
+							<span>TIME TO SPILL THE STATS</span>
 						</h2>
 					</div>
 

@@ -14,6 +14,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
 		}
 		let newobj = Object.assign({}, item, { "classes" :  s_class1 });
 		navItems.push(newobj);
+		
 	});
 
 	const [desktopMenu, desktopMenuToggle] = useState(false);
