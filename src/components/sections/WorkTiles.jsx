@@ -23,48 +23,49 @@ const WorkTiles = () => {
   const Card = [
     {
       src: ThreeD.src,
-      alt: "3D",
-      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
+      alt: "Incredible India | Incredible Tigers",
+      Tooltip: "https://www.youtube.com/embed/we7Wi6mAWHA?autoplay=1&loop=1&mute=1&si=B4ySm20sYaNsrXsx",
     },
     {
       src: Corporate.src,
       alt: "Gem and Jewellary Export Council (India) TVC / Docufilm",
-      Tooltip: "https://www.youtube.com/watch?v=5OxSXKWXgUs",
+      Tooltip: "https://www.youtube.com/embed/5OxSXKWXgUs?autoplay=1&loop=1&mute=1&si=TRUkb9OOo-fvqCBu",
     },
+    
     {
       src: Education.src,
       alt: "Ring Binder",
-      Tooltip: "https://www.youtube.com/watch?v=uqQ7uaAs_Vc",
+      Tooltip: "https://www.youtube.com/embed/uqQ7uaAs_Vc?autoplay=1&loop=1&mute=1&si=ppsjFYqi38Kn7z7i",
     },
     {
       src: Frame.src,
       alt: "Techno go Spark",
-      Tooltip: "https://www.youtube.com/watch?v=sV61LynzMWE",
+      Tooltip: "https://www.youtube.com/embed/sV61LynzMWE?autoplay=1&loop=1&mute=1&si=RspBQNWKvfTSzXBj",
     },
     {
       src: Carshoot.src,
       alt: "Trip Shoot",
-      Tooltip: "https://www.youtube.com/watch?v=CJPSyWqzt9Y",
+      Tooltip: "https://www.youtube.com/embed/CJPSyWqzt9Y?autoplay=1&loop=1&mute=1&si=3rfh9bPyuOhue76V",
     },
     {
       src: Audio.src,
       alt: "Techno Hipods H2",
-      Tooltip: "https://www.youtube.com/watch?v=q_uLkYrwqW4",
+      Tooltip: "https://www.youtube.com/embed/q_uLkYrwqW4?autoplay=1&loop=1&mute=1&si=-9vo630vqnh9iLbX",
     },
     {
       src: SocialMedia.src,
       alt: "Uno Minda Multi Media",
-      Tooltip: "https://www.youtube.com/watch?v=9ejZpXeAOJ4&ab_channel=ContentFoundry",
+      Tooltip: "https://www.youtube.com/embed/9ejZpXeAOJ4?autoplay=1&loop=1&mute=1&si=VQo2HggDpWqppY9d",
     },
     {
       src: Techno.src,
       alt: "Techno Spark Launch",
-      Tooltip: "https://www.youtube.com/watch?v=ZB04bcqIKf8",
+      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=pXbdnJK7uRYao6BA",
     },
     {
       src: Digital.src,
       alt: "AV Explainer",
-      Tooltip: "https://www.youtube.com/watch?v=A4uxqoMIumM",
+      Tooltip: "https://www.youtube.com/embed/A4uxqoMIumM?autoplay=1&loop=1&mute=1&si=P2DJiIHyXcv6p5v9",
     },
   ];
   return (
