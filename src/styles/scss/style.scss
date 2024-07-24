@@ -216,6 +216,9 @@ a.onovo-btn:hover, .onovo-btn:hover{
 	.hide-on-mobile-extra {
 		display: none;
 	}
+	.header--white .onovo-logo-image img.logo--white{
+		max-width: 200px;
+	}
 }
 
 @media (min-width: 991px) {
