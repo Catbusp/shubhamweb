@@ -37,7 +37,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"video":"/video/stvideo.mp4","title":{"text":"Content That Creates Impact","icon":""},"subtitle":""}');
+module.exports = JSON.parse('{"video":"/video/stvideo.mp4","title":{"text":"Ideas That Creates Impact","icon":""},"subtitle":""}');
 
 /***/ })
 

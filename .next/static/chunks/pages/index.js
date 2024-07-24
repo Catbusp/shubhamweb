@@ -474,7 +474,7 @@ eval(__webpack_require__.ts("\n\nObject.defineProperty(exports, \"__esModule\", 
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"title":"Under One Roof,<br/> In Shortest Time,<br/> At Your Doorstep","subtitle":"Your Own Video Content Creation","number":{"value":"9","label":"Years of Video Production Experience"},"items":[{"title":"","text":"Content Foundry knows no boundaries when it comes to flex video content creation. You’re probably not the only one out here trying to slay with classy videos on social media or anywhere else. But we\'re the crew you’ll want to roll with. Our video production crew locks in and gets your needs done at lightning speed."},{"title":"","text":"","button":{"label":"More About Us","link":"/about"}}]}');
+module.exports = JSON.parse('{"title":"Under One Roof,<br/> In Shortest Time","subtitle":"Your Own Video Content Creation","number":{"value":"9","label":"Years of Video Production Experience"},"items":[{"title":"","text":"Content Foundry knows no boundaries when it comes to flex video content creation. You’re probably not the only one out here trying to slay with classy videos on social media or anywhere else. But we\'re the crew you’ll want to roll with.<br> Our video production crew locks in and gets your needs done at lightning speed. We cook, eat, and leave no crumbs. Have some awesome ideas in your bucket? <b>What’s the wait?</b>"},{"title":"","text":"","button":{"label":"More About Us","link":"/about"}}]}');
 
 /***/ }),
 

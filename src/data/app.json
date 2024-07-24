@@ -26,8 +26,8 @@
     },
     "header": {
         "logo": {
-            "image": "/images/main_cf_logo_full.png",
-            "image_white": "/images/main_cf_logo_full.png",
+            "image": "/images/logo-main.png",
+            "image_white": "/images/logo-main.png",
             "alt": "logo"
         },
         "menu": [
