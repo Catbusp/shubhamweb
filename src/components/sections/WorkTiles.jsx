@@ -23,48 +23,48 @@ const WorkTiles = () => {
   const Card = [
     {
       src: ThreeD.src,
-      alt: "",
+      alt: "3D",
       Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
     },
     {
       src: Corporate.src,
-      alt: "",
-      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
+      alt: "Gem and Jewellary Export Council (India) TVC / Docufilm",
+      Tooltip: "https://www.youtube.com/watch?v=5OxSXKWXgUs",
     },
     {
       src: Education.src,
-      alt: "",
-      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
+      alt: "Ring Binder",
+      Tooltip: "https://www.youtube.com/watch?v=uqQ7uaAs_Vc",
     },
     {
       src: Frame.src,
-      alt: "",
-      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
+      alt: "Techno go Spark",
+      Tooltip: "https://www.youtube.com/watch?v=sV61LynzMWE",
     },
     {
       src: Carshoot.src,
-      alt: "",
-      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
+      alt: "Trip Shoot",
+      Tooltip: "https://www.youtube.com/watch?v=CJPSyWqzt9Y",
     },
     {
       src: Audio.src,
-      alt: "",
-      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
+      alt: "Techno Hipods H2",
+      Tooltip: "https://www.youtube.com/watch?v=q_uLkYrwqW4",
     },
     {
       src: SocialMedia.src,
-      alt: "",
-      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
+      alt: "Uno Minda Multi Media",
+      Tooltip: "https://www.youtube.com/watch?v=9ejZpXeAOJ4&ab_channel=ContentFoundry",
     },
     {
       src: Techno.src,
-      alt: "",
-      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
+      alt: "Techno Spark Launch",
+      Tooltip: "https://www.youtube.com/watch?v=ZB04bcqIKf8",
     },
     {
       src: Digital.src,
-      alt: "",
-      Tooltip: "https://www.youtube.com/embed/ZB04bcqIKf8?autoplay=1&loop=1&mute=1&si=27oAX7vd74aGJJGQ",
+      alt: "AV Explainer",
+      Tooltip: "https://www.youtube.com/watch?v=A4uxqoMIumM",
     },
   ];
   return (
@@ -91,7 +91,7 @@ const WorkTiles = () => {
                         handleClick(e.Tooltip);
                       }}
                     >
-                      <div className='text-custome'>{e.Tooltip}</div>
+                      <div className='text-custome'>{e.alt}</div>
                     </div>
                   </div>
                 </div>

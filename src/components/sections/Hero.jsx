@@ -68,7 +68,7 @@ const HeroSection = () => {
 						</div>
 					</div>
 					{/* <a href="#" className={mute ? "onovo-play-btn active" : "onovo-play-btn"} onClick={(e) => clickedMuteHeroVideo(e) }> */}
-					<a href="#" className="clickme onovo-play-btn" onClick={() => Toggle()}>
+					{/* <a href="#" className="clickme onovo-play-btn" onClick={() => Toggle()}>
 						<span className="play-circles" />
 						<span className="play-lines">
 							<span />
@@ -76,7 +76,7 @@ const HeroSection = () => {
 							<span />
 							<span />
 						</span>
-					</a>
+					</a> */}
 					
 					<Modal show={modal} title="My Modal" close={Toggle} >
 							This is Modal content
