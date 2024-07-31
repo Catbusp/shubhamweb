@@ -36,20 +36,15 @@ const Slidertest = () => {
 		<section className="onovo-section">
             <div className="scroller" data-direction="right" data-speed="slow">
                 <div className="scroller__inner hover_filter top_slider">
-                    <img src="/images/clients/client_logo1.png" alt="" />
-                    <img src="/images/clients/client_logo2.png" alt="" />
-                    <img src="/images/clients/client_logo4.png" alt="" />
-                    <img src="/images/clients/client_logo6.png" alt="" />
-                    <img src="/images/clients/client_logo9.png" alt="" />
-                    <img src="/images/clients/client_logo11.png" alt="" />
-                    <img src="/images/clients/client_logo14.png" alt="" />
-                    <img src="/images/clients/client_logo19.png" alt="" />
-                    <img src="/images/clients/client_logo21.png" alt="" />
-                    <img src="/images/clients/client_logo22.png" alt="" />
-                    <img src="/images/clients/client_logo10.png" alt="" />
-                    <img src="/images/clients/client_logo28.png" alt="" />
-                    <img src="/images/clients/client_logo33.png" alt="" />
-                    <img src="/images/clients/client_logo35.png" alt="" />
+                    <img src="/images/newclients/ace.png" alt="" />
+                    <img src="/images/newclients/bbs_svg.png" alt="" />
+                    <img src="/images/newclients/coa.png" alt="" />
+                    <img src="/images/newclients/gjepc.png" alt="" />
+                    <img src="/images/newclients/incredible.png" alt="" />
+                    <img src="/images/newclients/luxebook.png" alt="" />
+                    <img src="/images/newclients/ministry.png" alt="" />
+                    <img src="/images/newclients/whiteSafari.png" alt="" />
+                    <img src="/images/newclients/uno.png" alt="" />
                 </div>
             </div>
 		</section>

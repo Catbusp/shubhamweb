@@ -241,7 +241,7 @@ eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* har
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"video":"/video/stvideo.mp4","title":{"text":"Ideas That Creates Impact","icon":""},"subtitle":""}');
+module.exports = JSON.parse('{"video":"/video/stvideo.mp4","title":{"text":"IDEAS THAT CREATE IMPACT","icon":""},"subtitle":""}');
 
 /***/ })
 

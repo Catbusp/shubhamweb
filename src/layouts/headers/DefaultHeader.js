@@ -71,7 +71,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
       {/* Header */}
       <header className={darkHeader ? "onovo-header" : "onovo-header header--white"}>
         <div className="header--builder pt-4">
-          <div className="container">
+          <div className="container-fluid customHeader">
             <div className="row">
               <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center">
 
