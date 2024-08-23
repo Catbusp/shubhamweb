@@ -34,7 +34,7 @@ const Slidertest = () => {
       <>
         {/* Onovo Awards */}
 		<section className="onovo-section">
-            <div className="scroller" data-direction="right" data-speed="slow">
+            <div className="scroller" data-direction="left" data-speed="slow">
                 <div className="scroller__inner hover_filter top_slider">
                     <img src="/images/newclients/ace.png" alt="" />
                     <img src="/images/newclients/bbs_svg.png" alt="" />
