@@ -1,7 +1,7 @@
 ---
 #preview
 title: 3D Interactive Videos
-image: /images/projects/3d.gif
+image: /images/projects/updated/3d.gif
 category: Design
 category_slug: design
 type: UI/UX Design, Branding, Logo Design

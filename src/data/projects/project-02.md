@@ -1,7 +1,7 @@
 ---
 #preview
 title: Customer Testimonials
-image: /images/projects/testimonials.gif
+image: /images/projects/updated/customertestimonials.gif
 category: Marketing
 category_slug: marketing
 type: UI/UX Design, Mobile Apps, Interactive Design

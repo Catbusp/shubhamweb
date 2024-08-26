@@ -79,7 +79,7 @@ const AboutSection = () => {
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
               <div className="onovo-heading white-head gap-bottom-40">
-                <div className="onovo-subtitle-1">
+                <div className="onovo-subtitle-1 styletext">
                   <span>{Data.subtitle}</span>
                 </div>
                 <h2 className="onovo-title-2 white-head">

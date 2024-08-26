@@ -29,10 +29,12 @@
     "react-responsive-carousel": "^3.2.23",
     "react-scripts": "^5.0.1",
     "react-share": "^4.4.1",
+    "react-slick": "^0.30.2",
     "remark": "^14.0.3",
     "remark-html": "^15.0.2",
     "sass": "^1.49.7",
     "scroll-out": "^2.2.12",
+    "slick-carousel": "^1.8.1",
     "splitting": "^1.0.6",
     "swiper": "10.0.4"
   },

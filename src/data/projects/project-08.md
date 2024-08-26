@@ -1,7 +1,7 @@
 ---
 #preview
 title: Explainer Video Production
-image: /images/projects/explainer.gif
+image: /images/projects/updated/explainer.gif
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Marketing
 category_slug: marketing

@@ -5,15 +5,15 @@ import Layouts from "@layouts/Layouts";
 import { getSortedTeamData } from "@library/team";
 import { getSortedServicesData } from "@library/services";
 
-import CountUp from 'react-countup';
+// import CountUp from 'react-countup';
 import { circleText } from "@common/utilits";
 
 import PageBanner from "@components/PageBanner";
-import Team2Section from "@components/sections/Team2"
-import PartnersSection from "@components/sections/Partners"
-import AwardsSection from "@components/sections/Awards"
-import Services4Section from "@components/sections/Services4"
-import Companies from "../components/sections/Companies";
+// import Team2Section from "@components/sections/Team2"
+// import PartnersSection from "@components/sections/Partners"
+// import AwardsSection from "@components/sections/Awards"
+// import Services4Section from "@components/sections/Services4"
+// import Companies from "../components/sections/Companies";
 import WorkTiles from "../components/sections/WorkTiles";
 
 const HistorySlider = dynamic( () => import("@components/sliders/History"), { ssr: false } );
@@ -35,7 +35,7 @@ const Ourwork = (props) => {
 
   return (
     <Layouts>
-    	<PageBanner pageTitle={"Prime Productions"} pageDesc={"Creative studio at the intersection of art, designand technology."} />
+    	<PageBanner pageTitle={"We bring your boldest ideas to life"} pageDesc={""} />
       
       	{/* Onovo About */}
 	  	{/* <section className="onovo-section gap-top-140">

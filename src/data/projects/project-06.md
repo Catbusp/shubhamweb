@@ -1,7 +1,7 @@
 ---
 #preview
 title: Commercial Video Production
-image: /images/projects/commercial.gif
+image: /images/projects/updated/commercial.gif
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Branding
 category_slug: branding

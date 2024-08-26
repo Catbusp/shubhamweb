@@ -1,7 +1,7 @@
 ---
 #preview
 title: Educational Video Production
-image: /images/projects/educational.gif
+image: /images/projects/updated/educational.gif
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Interactive
 category_slug: interactive

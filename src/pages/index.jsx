@@ -14,8 +14,10 @@ import { circleText } from "@common/utilits";
 import AboutSection from "@components/sections/About";
 import ShowcaseSection from "@components/sections/Showcase";
 import TeamSection from "@components/sections/Team";
+import FocusText from "../components/sections/FocusText";
 // import VideoSection from "@components/sections/Video";
 import CountersSection from "@components/sections/Counters";
+import RoundTeam from "../components/sections/RoundTeam";
 // import CallToActionSection from "@components/sections/CallToAction";
 // import LatestPostsSection from "@components/sections/LatestPosts";
 // import PartnersSection from "@components/sections/Partners";
@@ -23,6 +25,9 @@ import Slidertest from "../components/sections/Slidertest";
 import Companies from "../components/sections/Companies";
 import WorkSlider from "../components/sections/WorkSlider";
 import TeamSlider from "../components/sections/TeamSlider";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
 const TickerSlider = dynamic( () => import("@components/sliders/Ticker"), { ssr: false } );
@@ -38,13 +43,14 @@ const Home1 = (props) => {
       <>
         <HeroSection />
         <AboutSection/>
+        <FocusText/>
         <Slidertest/>
         {/* <TickerSlider /> */}
         <ShowcaseSection projects={props.projects} />
         {/* <ServicesSection /> */}
         {/* <TeamSection team={props.team} /> */}
-        {/* <RoundTeam/> */}
-        <TeamSlider/>
+        <RoundTeam/>
+        {/* <TeamSlider/> */}
         <WorkSlider/>
         {/* <TestimonialSlider id='clients'/> */}
         {/* <VideoSection /> */}

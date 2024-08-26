@@ -13,20 +13,20 @@ const PageBanner = ({ pageTitle, pageDesc }) => {
         <title>{headTitle}</title>
       </Head>
       {/* Onovo Intro */}
-			<section className="onovo-section onovo-intro intro--black">
+			<section className="onovo-section showcasework intro--white">
 				<div className="container">
-					<h1 className="onovo-title-1  onovo-text-white">
+					<h1 className="onovo-title-2 cf-heading">
 						<span>{pageTitle}</span>
 						<span className="onovo-sep word">
 							<i className="sep-img" style={{"backgroundImage": "url(/images/title_icon.svg)"}} />
 						</span>
 					</h1>
-					{pageDesc != "" &&
+					{/* {pageDesc != "" &&
 					<div className="onovo-subtitle-2  onovo-text-white">
 						<span>{pageDesc}</span>
 					</div>
-					}
-					<div className="onovo-breadcrums">
+					} */}
+					{/* <div className="onovo-breadcrums">
 						<ul>
 							<li>
 								<Link href="/">Home</Link>
@@ -55,7 +55,7 @@ const PageBanner = ({ pageTitle, pageDesc }) => {
 								<span>{pageTitle}</span>
 							</li>
 						</ul>
-					</div>
+					</div> */}
 				</div>
 			</section>
     </>

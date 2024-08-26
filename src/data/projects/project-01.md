@@ -1,7 +1,7 @@
 ---
 #preview
 title: Podcast Production
-image: /images/projects/podcast.gif
+image: /images/projects/updated/podcast.gif
 category: Branding
 category_slug: branding
 type: Art Direction, Branding, Interactive Design

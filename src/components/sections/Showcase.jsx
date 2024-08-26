@@ -16,7 +16,7 @@ const ShowcaseSection = ( { projects } ) => {
 				<div className="container">
 					{/* Heading */}
 					<div className="onovo-heading gap-bottom-40">
-						<div className="onovo-subtitle-1">
+						<div className="onovo-subtitle-1 styletext">
 							<span>{Data.subtitle}</span>
 						</div>
 						<h2 className="onovo-title-2">

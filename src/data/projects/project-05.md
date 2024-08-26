@@ -1,7 +1,7 @@
 ---
 #preview
 title: Social Media Video Production
-image: /images/projects/social_video.gif
+image: /images/projects/updated/socialmedia.gif
 category: Interactive
 category_slug: interactive
 type: Marketing, Rendering, 3D Design

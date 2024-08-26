@@ -1,7 +1,7 @@
 ---
 #preview
 title: Corporate Films & TVCs
-image: /images/projects/corporate_films.gif
+image: /images/projects/updated/corporatefilms.gif
 category: Design
 category_slug: design
 type: Marketing, Rendering, 3D Design
