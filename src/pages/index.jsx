@@ -22,7 +22,7 @@ import CountersSection from "@components/sections/Counters";
 import Slidertest from "../components/sections/Slidertest";
 import Companies from "../components/sections/Companies";
 import WorkSlider from "../components/sections/WorkSlider";
-import RoundTeam from "../components/sections/RoundTeam";
+import TeamSlider from "../components/sections/TeamSlider";
 
 const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
 const TickerSlider = dynamic( () => import("@components/sliders/Ticker"), { ssr: false } );
@@ -43,9 +43,10 @@ const Home1 = (props) => {
         <ShowcaseSection projects={props.projects} />
         {/* <ServicesSection /> */}
         {/* <TeamSection team={props.team} /> */}
-        <RoundTeam/>
+        {/* <RoundTeam/> */}
+        <TeamSlider/>
         <WorkSlider/>
-        <TestimonialSlider id='clients'/>
+        {/* <TestimonialSlider id='clients'/> */}
         {/* <VideoSection /> */}
         <CountersSection />
         {/* <Companies/> */}

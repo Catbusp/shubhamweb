@@ -35,16 +35,20 @@ const Slidertest = () => {
         {/* Onovo Awards */}
 		<section className="onovo-section">
             <div className="scroller" data-direction="left" data-speed="slow">
-                <div className="scroller__inner hover_filter top_slider">
-                    <img src="/images/newclients/ace.png" alt="" />
-                    <img src="/images/newclients/bbs_svg.png" alt="" />
-                    <img src="/images/newclients/coa.png" alt="" />
-                    <img src="/images/newclients/gjepc.png" alt="" />
-                    <img src="/images/newclients/incredible.png" alt="" />
-                    <img src="/images/newclients/luxebook.png" alt="" />
-                    <img src="/images/newclients/ministry.png" alt="" />
-                    <img src="/images/newclients/whiteSafari.png" alt="" />
-                    <img src="/images/newclients/uno.png" alt="" />
+                <div className="scroller__inner hover_filter top_slider slideicons">
+                    <img src="/images/whiteicons/ACE-Logo.png" alt="" />
+                    <img src="/images/whiteicons/Hmd.png" alt="" />
+                    <img src="/images/whiteicons/JCB.png" alt="" />
+                    <img src="/images/whiteicons/babysaffron.png" alt="" />
+                    <img src="/images/whiteicons/Luxebook.png" alt="" />
+                    <img src="/images/whiteicons/Vector.png" alt="" />
+                    <img src="/images/whiteicons/Vector-1.png" alt="" />
+                    <img src="/images/whiteicons/Vector-2.png" alt="" />
+                    <img src="/images/whiteicons/Vector-3.png" alt="" />
+                    <img src="/images/whiteicons/Vector-4.png" alt="" />
+                    <img src="/images/whiteicons/Vector-5.png" alt="" />
+                    <img src="/images/whiteicons/Vector-6.png" alt="" />
+                    <img src="/images/whiteicons/Cocacola_logo.png" alt="" />
                 </div>
             </div>
 		</section>

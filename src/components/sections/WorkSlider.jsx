@@ -35,7 +35,7 @@ const WorkSlider = () => {
 		<section className="onovo-section gap-bottom-140">
             <div className="scroller" data-direction="left" data-speed="slow">
               <a href='/ourwork'>
-                  <div class="scroller__inner hover_filter2 workslider">
+                  <div className="scroller__inner hover_filter2 workslider">
                       <img src="/images/work/3d.png" alt="" />
                       <img src="/images/work/audio.png" alt="" />
                       <img src="/images/work/Corporatefilms.png" alt="" />

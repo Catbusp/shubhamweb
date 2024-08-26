@@ -26,7 +26,8 @@ const CountersSection = () => {
 					<div key={`counters-item-${key}`} className="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-center">
 						<div className="onovo-counter align-center">
 							<div className="stats-img js-counter">
-								<img src={item.image} alt={item.alt} className="gap-top-40 gap-bottom-40" />
+								{/* <img src={item.image} alt={item.alt} className="gap-top-40 gap-bottom-40" /> */}
+								<p className="text_stats work-sans-black">{item.numbers}</p>
 							</div>
 							<div className="text-uppercase">
 								<h5>{item.title}</h5>

@@ -12,7 +12,7 @@ Version: 1.0
 /* ---
 	1. Global
 ---*/
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
 * {
 	outline: none;
 	box-sizing: border-box;
@@ -2926,6 +2926,10 @@ a.onovo-menu-btn,
 	transform: scaleX(1);
 	-webkit-transform: scaleX(1);
 	transform-origin: bottom left;
+}
+
+.slideicons>img{
+	height: 50px;
 }
 
 @media (max-width: 1024px) {

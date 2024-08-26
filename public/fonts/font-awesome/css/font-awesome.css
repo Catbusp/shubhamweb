@@ -16,6 +16,13 @@
   text-rendering: auto;
   line-height: 1; }
 
+.work-sans-black {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;

@@ -66,16 +66,19 @@
             {
                 "image": "/images/stats/user.png",
                 "title": "User Satisfaction",
+                "numbers":"54%",
                 "alt": "User Satisfaction"
             },
             {
                 "image": "/images/stats/64.png",
                 "title": "More Engagement",
+                "numbers":"64%",
                 "alt": "More Engagement"
             },
             {
                 "image": "/images/stats/88.png",
                 "title": "User Interaction",
+                "numbers":"88%",
                 "alt": "User Interaction"
             }
         ]
