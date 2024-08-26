@@ -3,6 +3,7 @@ import appData from "@data/app.json";
 import { useEffect } from "react";
 import ImageView from "@components/ImageView";
 import { footerSticky } from "@common/utilits";
+import ContentFoundrylogo from '../../../public/images/footer/cflogo.png'
 
 const DefaultFooter = () => {
   useEffect(() => {
@@ -14,21 +15,22 @@ const DefaultFooter = () => {
         {/* Footer */}
         <footer className="onovo-footer footer--dark">
             <div className="footer--default">
-                <div className="container">
+                <div className="footer-container">
 
                     <div className="row">
-                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-10">
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
-                                <h5>Information</h5>
-                                <p style={{"opacity": "0.6"}}>We’re all about creativity and team up with brands chasing that next-level perfection. Looking to amaze your audience with standout content? 
-We’d be pumped to be your go-to video partner.
-</p>
+                                {/* <h5>Information</h5> */}
+                                <img src={ContentFoundrylogo.src}/>
+                                {/* <p style={{"opacity": "0.6"}}>We’re all about creativity and team up with brands chasing that next-level perfection. Looking to amaze your audience with standout content? 
+                                    We’d be pumped to be your go-to video partner.
+                                </p> */}
                             </div>
 
                         </div>
-                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 offset-lg-1">
-                            {/* Description */}
+                        {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 offset-lg-1">
+
                             <div className="onovo-text onovo-text-white">
                                 <h5>Get in Touch</h5>
                                 <p style={{"opacity": "0.6"}}>FBD One Corporate Park, 10th Floor, NH 44, <br />Faridabad, Haryana 121003</p>
@@ -37,24 +39,24 @@ We’d be pumped to be your go-to video partner.
                                     <a href="mailto:info@contentfoundry.in" className="onovo-lnk lnk--white" target="_blank">info@contentfoundry.in</a>
                                 </p>
                             </div>
+                        </div> */}
 
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-
-                            
+                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2">
                             <div className="row">
-                                {appData.footer.gallery.map((item, key) => (
-                                <div key={`fgallery-item-${key}`} className="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                                    <figure className="gallery-item">
-                                        <a href={item.image} title={item.title}>
-                                            <img src={item.image} alt={item.alt} />
-                                        </a>
-                                    </figure>
+                                <div className="onovo-text onovo-text-white">
+                                    <h5>Get in Touch</h5>
+                                    <p style={{"opacity": "0.6"}}>Privacy Policy</p>
+                                    <p style={{"opacity": "0.6"}}>
+                                        <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">Terms Of Use</a><br />
+                                    </p>
+                                    <p style={{"opacity": "0.6"}}>
+                                        <a href="mailto:info@contentfoundry.in" className="onovo-lnk lnk--white" target="_blank">Legal</a>
+                                    </p>
+                                    
                                 </div>
-                                ))}
                             </div>
-
                         </div>
+
                     </div>
 
                     <div className="separator"></div>
