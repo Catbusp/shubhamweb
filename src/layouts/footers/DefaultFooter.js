@@ -13,19 +13,36 @@ const DefaultFooter = () => {
   return (
     <>
         {/* Footer */}
-        <footer className="onovo-footer footer--dark">
+        <footer className="onovo-footer footer--dark pt-3">
             <div className="footer--default">
-                <div className="footer-container">
+                    <div className="row connectback">
+                        <div className="footer-container">
+                            <div className="connect m-auto">
+                                <p>Discuss over a coffee?</p>
+                                 <h2>Let's Connect</h2>
+                                 <div className="locate-details">
+                                    <div className="col-lg-4">
+                                        <h4 className="text-white">info@contentfoundry.in</h4>
+                                    </div>
+                                    <div className="col-lg-4">
+                                        <h4 className="text-white">Get a Quote</h4>
+                                    </div>
+                                    <div className="col-lg-4">
+                                        <h4 className="text-white">+91 98113 46401</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
 
+
+                <div className="footer-container">
                     <div className="row">
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-10">
-                            {/* Description */}
                             <div className="onovo-text onovo-text-white">
                                 {/* <h5>Information</h5> */}
                                 <img src={ContentFoundrylogo.src}/>
-                                {/* <p style={{"opacity": "0.6"}}>We’re all about creativity and team up with brands chasing that next-level perfection. Looking to amaze your audience with standout content? 
-                                    We’d be pumped to be your go-to video partner.
-                                </p> */}
                             </div>
 
                         </div>
@@ -41,10 +58,10 @@ const DefaultFooter = () => {
                             </div>
                         </div> */}
 
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2 pl-4">
                             <div className="row">
-                                <div className="onovo-text onovo-text-white">
-                                    <h5>Get in Touch</h5>
+                                <div className="onovo-text onovo-text-white policies">
+                                    {/* <h5>Get in Touch</h5> */}
                                     <p style={{"opacity": "0.6"}}>Privacy Policy</p>
                                     <p style={{"opacity": "0.6"}}>
                                         <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">Terms Of Use</a><br />
@@ -59,7 +76,7 @@ const DefaultFooter = () => {
 
                     </div>
 
-                    <div className="separator"></div>
+                    <div className="separator-cf"></div>
 
                     <div className="row">
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
