@@ -18,34 +18,34 @@ export default function FocusText() {
 				</h2>
     <Slider {...settings} className="windowtext">
       <div className="text-center">
-        <h3>Shares</h3>
+        <h4>Shares</h4>
       </div>
       <div className="text-center">
-        <h3>Paid Ads</h3>
+        <h4>Paid Ads</h4>
       </div>
       <div className="text-center">
-        <h3>Likes</h3>
+        <h4>Likes</h4>
       </div>
       <div className="text-center">
-        <h3>Repost</h3>
+        <h4>Repost</h4>
       </div>
       <div className="text-center">
-        <h3>Shares</h3>
+        <h4>Shares</h4>
       </div>
       <div className="text-center">
-        <h3>Traffic</h3>
+        <h4>Traffic</h4>
       </div>
       <div className="text-center">
-        <h3>Videos</h3>
+        <h4>Videos</h4>
       </div>
       <div className="text-center">
-        <h3>Impacts</h3>
+        <h4>Impacts</h4>
       </div>
       <div className="text-center">
-        <h3>Clicks</h3>
+        <h4>Clicks</h4>
       </div>
       <div className="text-center">
-        <h3>Produce</h3>
+        <h4>Produce</h4>
       </div>
     </Slider>
 
