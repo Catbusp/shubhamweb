@@ -74,11 +74,11 @@ const AboutSection = () => {
         </div>
       </section> */}
 
-      <section className="onovo-section about-cf gap-top-140" id='aboutcf'>
+      <section className="onovo-section about-cf gap-top-70" id='aboutcf'>
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
-              <div className="onovo-heading white-head gap-bottom-40">
+              <div className="white-head text-capitalize">
                 <div className="onovo-subtitle-1 styletext">
                   <span>{Data.subtitle}</span>
                 </div>
@@ -95,6 +95,7 @@ const AboutSection = () => {
                   </div>
                 ))}
               </div>
+              <a className="CTA_buttons" href="#">Let's Connect</a>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 side_about_img">
               <img src={Side_about.src} className='w-100' alt="" />

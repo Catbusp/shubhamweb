@@ -88,7 +88,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
               <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-6 align-self-center align-center">
 
                 {/* Menu Hamburger */}
-                {/* <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /></a>
+                {/* <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /></a> */}
 
                 <div className="onovo-menu-popup align-left">
                   <div className="onovo-menu-overlay" />
@@ -119,7 +119,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
 
               </div>
 
@@ -135,14 +135,17 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                     <span />
                   </i>
                 </Link> */}
+              <a className="CTA_buttons_header" href="#">Contact Us</a>
+              <a className="CTA_buttons_header" href="#">Know More</a>
+                
                  {/* Menu Hamburger */}
                  {/* <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /><span /></a> */}
-                 <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-</a>
+                  <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }>
+                      <span style={{height:'2px'}}></span>
+                      <span style={{height:'2px'}}></span>
+                      <span style={{height:'2px'}}></span>
+                      <span></span>
+                  </a>
 
                   <div className="onovo-menu-popup align-left">
                     <div className="onovo-menu-overlay" />

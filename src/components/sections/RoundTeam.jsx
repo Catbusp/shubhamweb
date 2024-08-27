@@ -14,7 +14,7 @@ const RoundTeam = () => {
 						{/* <div className="onovo-subtitle-1">
 							<span>{Data.subtitle}</span>
 						</div> */}
-						<h2 className="onovo-title-2">
+						<h2 className="onovo-title-2 text-capitalize">
 							<span dangerouslySetInnerHTML={{__html: Data.title}} />
 						</h2>
 					</div>

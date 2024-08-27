@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import TypeWriterEffect from 'react-typewriter-effect';
 import Data from "@data/sections/hero.json";
 
 import 'splitting/dist/splitting.css'
@@ -45,16 +45,65 @@ const HeroSection = () => {
         <>
             {/* Onovo Hero */}
 			<section className="onovo-section onovo-hero">
+				<div className="autotypecf container-fluid">
+					<div className="row typing-section text-left">
+						<div className="col-lg-3 fitwidth">
+							<h3 className="text-black">Say goodbye to</h3>
+						</div>	
+						<div className="col-lg-4">
+							<TypeWriterEffect
+								startDelay={1000}
+								cursorColor="black"
+								multiText={[
+									"Non-Engaging Videos",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+									"Non-Engaging Videos",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+									"Non-Engaging Videos",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+									"Non-Engaging Videos",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+								]}
+								multiTextDelay={1000}
+								typeSpeed={150}
+							/>
+						</div>	
+					</div>
+				</div>
 				<div className="image">
 					<video autoPlay muted={!mute} loop playsInline id="heroVideo">
 						<source src={Data.video} type="video/mp4" />
 					</video>
-					<div className="ovrl" style={{"opacity": "0.25"}} />
+					{/* <div className="ovrl" style={{"opacity": "0.25"}} /> */}
 				</div>
 				<div className="container">
 					<h2 className="title onovo-text-white">
 						<span data-splitting data-onovo-scroll>
-                            <span dangerouslySetInnerHTML={{__html: Data.title.text}} />
+                            <span dangerouslySetInnerHTML={{__html: Data.title.text}}/>
                             <span className="onovo-sep word">
 								<i className="sep-img" style={{"backgroundImage": "url("+Data.title.icon+")"}} />
 							</span>

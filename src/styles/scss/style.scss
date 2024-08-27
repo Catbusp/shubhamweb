@@ -198,6 +198,7 @@ b, strong {
 // );
 background-color: #000000;
 	color: #fff;
+	margin-top: 25%;
 }
 
 .white-head{
@@ -226,7 +227,7 @@ a.onovo-btn:hover, .onovo-btn:hover{
 		display: none;
 	}
 	.header--white .onovo-logo-image img.logo--white{
-		max-width: 200px;
+		max-width: 180px;
 	}
 }
 
@@ -2440,8 +2441,9 @@ button > span,
 }
 
 .onovo-logo-image img {
-	max-width: 100%;
+	max-width: 70%;
 	height: auto;
+	margin-left: 15px;
 }
 
 .onovo-logo-image img.logo--white,
@@ -2765,7 +2767,7 @@ a.onovo-menu-btn,
 
 .header--white .onovo-menu-btn span,
 .header--active .onovo-menu-btn span {
-    background: #fff;
+    background: #000000;
 }
 
 .header--active .onovo-menu-btn span::before,
@@ -3287,15 +3289,15 @@ ul.onovo-footer-menu li {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #000;
+	// background: #000;
 	opacity: 0.35;
 	z-index: 2;
 }
 
 .onovo-hero .container {
-	padding-top: 100px;
+	// padding-top: 100px;
 	position: relative;
-	height: 100%;
+	// height: 100%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -8273,8 +8275,74 @@ transition: 0.4s;
 			padding-bottom: 20px
 		}
 		#offerings{
-			padding-bottom: 90px
+			padding-bottom: 90px;
 		}
+	}
+	.autotypecf{
+		background-color: #fff;
+	}
+	.typing-section{
+		height: 100vh;
+		width: 85%;
+		margin: auto;
+		// align-items: center;
+		padding-top: 12%;
+		background-color: #fff;
+		// border: 1px solid #000;
+	}
+
+	#heroVideo{
+		margin-top:25%
+	}
+
+	.fitwidth{
+		width: fit-content;
+	}
+
+	.fitwidth>h3{
+		margin-top: -1px;
+	}
+
+	.react-typewriter-text{
+		font-size: 38px;
+		background: -webkit-linear-gradient(#E40494, #AD08CC);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-left: -20px;
+	}
+	.CTA_buttons{
+		background: linear-gradient(145deg, rgba(229,1,144,1) 0%, rgba(158,6,215,1) 100%);
+		padding: 15px 18px;
+		color: #fff;
+	}
+	.CTA_buttons_header{
+		padding: 15px 18px;
+		// color: rgba(229,1,144,1);
+		background-color: #fff;
+		margin-right: 30px;
+		transition: 0.4s all ease;
+	}
+
+	a.CTA_buttons{
+		font-size: 15px;
+		color: #fff;
+	}
+	a.CTA_buttons_header{
+		font-size: 15px;
+		color: rgba(229,1,144,1);
+		transition: 0.4s all ease;
+		border: 2px solid rgba(229,1,144,1);
+	}
+	a.CTA_buttons_header:hover{
+		font-size: 15px;
+		background: linear-gradient(145deg, rgba(229,1,144,1) 0%, rgba(158,6,215,1) 100%);
+		// padding: 15px 18px;
+		color: #fff;
+		border: 2px solid rgba(229, 1, 145, 0);
+		transition: 0.4s all ease;
+	}
+	.hamlines{
+		height: 2px;
 	}
 /* ---
 	Skin Options

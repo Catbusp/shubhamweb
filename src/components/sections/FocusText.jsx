@@ -12,8 +12,10 @@ export default function FocusText() {
     autoplaySpeed: 2500
   };
   return (
-    <div className="focuswindow">
-
+    <div className="focuswindow mt-5">
+        <h2 className="onovo-title-2 text-capitalize text-center">
+            <span>We Step in Where You Need us</span>
+				</h2>
     <Slider {...settings} className="windowtext">
       <div className="text-center">
         <h3>Shares</h3>
