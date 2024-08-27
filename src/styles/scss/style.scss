@@ -8344,6 +8344,21 @@ transition: 0.4s;
 	.hamlines{
 		height: 2px;
 	}
+	// .onovo-menu-btn:hover > span{
+	// 	background-color: #fff
+	// }
+	header.onovo-header.sticky.slideDown{
+		padding-bottom: 30px;
+		.onovo-menu-btn > span{
+			background-color: #fff
+		}
+	}
+
+	.onovo-menu-overlay-after{
+		.onovo-menu-btn span{
+			background-color: #fff;
+		}
+	}
 /* ---
 	Skin Options
 ---*/

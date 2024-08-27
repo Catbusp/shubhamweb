@@ -32,10 +32,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/ourwork": [
+    "/cfpricing": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ourwork.js"
+      "static/chunks/pages/cfpricing.js"
     ]
   },
   "ampFirstPages": []

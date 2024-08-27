@@ -85,7 +85,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                 </div>
 
               </div>
-              <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-6 align-self-center align-center">
+              <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-5 align-self-center align-center">
 
                 {/* Menu Hamburger */}
                 {/* <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /></a> */}
@@ -122,21 +122,19 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                 </div>
 
               </div>
+              <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-4 align-self-center align-right">
 
-
-              <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center align-right">
-
-                {/* Button */}
-                {/* <Link className="onovo-head-btn onovo-hover-btn" href={appData.header.button.link}>
-                  <span>
-                    <span className="onovo-lnk lnk--active">{appData.header.button.label}</span>
-                  </span>
-                  <i className="arrow">
-                    <span />
-                  </i>
-                </Link> */}
-              <a className="CTA_buttons_header" href="#">Contact Us</a>
-              <a className="CTA_buttons_header" href="#">Know More</a>
+                  {/* Button */}
+                  {/* <Link className="onovo-head-btn onovo-hover-btn" href={appData.header.button.link}>
+                    <span>
+                      <span className="onovo-lnk lnk--active">{appData.header.button.label}</span>
+                    </span>
+                    <i className="arrow">
+                      <span />
+                    </i>
+                  </Link> */}
+                  <a className="CTA_buttons_header" href="#">Contact Us</a>
+                  <a className="CTA_buttons_header" href="#">Know More</a>
                 
                  {/* Menu Hamburger */}
                  {/* <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /><span /></a> */}
@@ -144,7 +142,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                       <span style={{height:'2px'}}></span>
                       <span style={{height:'2px'}}></span>
                       <span style={{height:'2px'}}></span>
-                      <span></span>
+                      {/* <span></span> */}
                   </a>
 
                   <div className="onovo-menu-popup align-left">
@@ -177,7 +175,6 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                       </div>
                     </div>
                   </div>
-
 
               </div>
             </div>

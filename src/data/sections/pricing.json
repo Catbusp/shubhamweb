@@ -5,87 +5,87 @@
         {
             "active": 0,
             "title": "Standard Package",
-            "subtitle": "3 Months",
-            "price": "$60.10",
+            "subtitle": "1 Month",
+            "price": "₹1,50,000",
             "icon": "fas fa-rocket",
             "list": [
                 {
-                    "label": "Unlimited updates",
+                    "label": "1 month / 10 minutes of content",
                     "included": 1
                 },
                 {
-                    "label": "Custom permissions",
+                    "label": "2 Days / Full Shift",
                     "included": 1
                 },
                 {
-                    "label": "Custom infrastructure",
-                    "included": 0
+                    "label": "Production",
+                    "included": 1
                 },
                 {
-                    "label": "Custom design and features",
+                    "label": "Post Production",
                     "included": 0
                 }
             ],
             "button": {
-                "label": "Purchase Now",
+                "label": "Purchase",
                 "link": "/contact"
             }
         },
         {
             "active": 1,
-            "title": "Professional Package",
-            "subtitle": "6 Months",
-            "price": "$120.10",
+            "title": "Pro",
+            "subtitle": "1 Month",
+            "price": "₹1,50,000",
             "icon": "fas fa-crown",
             "list": [
                 {
-                    "label": "Unlimited updates",
+                    "label": "1 month / 15 minutes of content",
                     "included": 1
                 },
                 {
-                    "label": "Custom permissions",
+                    "label": "4 Days / Full Shift",
                     "included": 1
                 },
                 {
-                    "label": "Custom infrastructure",
+                    "label": "Production",
                     "included": 1
                 },
                 {
-                    "label": "Custom design and features",
-                    "included": 0
+                    "label": "Post Production",
+                    "included": 1
                 }
             ],
             "button": {
-                "label": "Purchase Now",
+                "label": "Purchase",
                 "link": "/contact"
             }
         },
         {
             "active": 0,
-            "title": "Business Package",
+            "title": "Advance",
             "subtitle": "01 Year",
-            "price": "$230.10",
+            "price": "₹2,50,000",
             "icon": "fas fa-city",
             "list": [
                 {
-                    "label": "Unlimited updates",
+                    "label": "1 month / 20 minutes of content",
                     "included": 1
                 },
                 {
-                    "label": "Custom permissions",
+                    "label": "8 Days / Full Shift",
                     "included": 1
                 },
                 {
-                    "label": "Custom infrastructure",
+                    "label": "Pre Production",
                     "included": 1
                 },
                 {
-                    "label": "Custom design and features",
+                    "label": "Post Production",
                     "included": 1
                 }
             ],
             "button": {
-                "label": "Purchase Now",
+                "label": "Purchase",
                 "link": "/contact"
             }
         }

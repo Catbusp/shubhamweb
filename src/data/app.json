@@ -42,8 +42,13 @@
                 "children": 0
             },
             {
-                "label": "Offerings",
-                "link": "/#offerings",
+                "label": "Our Work",
+                "link": "/ourwork",
+                "children": 0
+            },
+            {
+                "label": "Pricing",
+                "link": "/cfpricing",
                 "children": 0
             },
             {

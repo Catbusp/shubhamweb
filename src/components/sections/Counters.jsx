@@ -8,34 +8,34 @@ const CountersSection = () => {
   return (
     <>
       {/* Onovo Numbers */}
-		<section className="onovo-section gap-top-40 gap-bottom-100">
+		<section className="onovo-section gap-bottom-100">
 			<div className="container">
 				{/* Numbers items */}
 				{/* Heading */}
-				<div className="onovo-heading align-center gap-bottom-40">
+				<div className="onovo-heading align-center gap-bottom-10">
 						{/* <div className="onovo-subtitle-1">
 							<span>{Data.subtitle}</span>
 						</div> */}
-						<h2 className="onovo-title-2">
-							<span>TIME TO SPILL THE STATS</span>
+						<h2 className="onovo-title-2 text-capitalize">
+							<span>Time to spill the stats</span>
 						</h2>
 					</div>
 
-				<div className="row">
-					{Data2.Stats.gallery.map((item, key) => (
-					<div key={`counters-item-${key}`} className="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-center">
-						<div className="onovo-counter align-center">
-							<div className="stats-img js-counter">
-								{/* <img src={item.image} alt={item.alt} className="gap-top-40 gap-bottom-40" /> */}
-								<p className="text_stats work-sans-black">{item.numbers}</p>
-							</div>
-							<div className="text-uppercase">
-								<h5>{item.title}</h5>
-							</div>
+					<div className="row">
+						{Data2.Stats.gallery.map((item, key) => (
+						<div key={`counters-item-${key}`} className="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-center">
+							<div className="onovo-counter align-center">
+								<div className="stats-img js-counter">
+									{/* <img src={item.image} alt={item.alt} className="gap-top-40 gap-bottom-40" /> */}
+									<p className="text_stats work-sans-black">{item.numbers}</p>
+								</div>
+								<div className="">
+									<h5>{item.title}</h5>
+								</div>
 
+							</div>
 						</div>
-					</div>
-					))}
+						))}
 					
 					{/* {Data.items.map((item, key) => (
 						<div key={`counters-item-${key}`} className="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-center">
