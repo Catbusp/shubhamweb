@@ -18,48 +18,48 @@ export default function FocusText() {
 				</h2>
     <Slider {...settings} className="windowtext">
       <div className="text-center">
-        <h4>Shares</h4>
+        <h4 className="windowpeek">Shares</h4>
       </div>
       <div className="text-center">
-        <h4>Paid Ads</h4>
+        <h4 className="windowpeek">Paid Ads</h4>
       </div>
       <div className="text-center">
-        <h4>Likes</h4>
+        <h4 className="windowpeek">Likes</h4>
       </div>
       <div className="text-center">
-        <h4>Repost</h4>
+        <h4 className="windowpeek">Repost</h4>
       </div>
       <div className="text-center">
-        <h4>Shares</h4>
+        <h4 className="windowpeek">Shares</h4>
       </div>
       <div className="text-center">
-        <h4>Traffic</h4>
+        <h4 className="windowpeek">Traffic</h4>
       </div>
       <div className="text-center">
-        <h4>Videos</h4>
+        <h4 className="windowpeek">Videos</h4>
       </div>
       <div className="text-center">
-        <h4>Impacts</h4>
+        <h4 className="windowpeek">Impacts</h4>
       </div>
       <div className="text-center">
-        <h4>Clicks</h4>
+        <h4 className="windowpeek">Clicks</h4>
       </div>
       <div className="text-center">
-        <h4>Produce</h4>
+        <h4 className="windowpeek">Produce</h4>
       </div>
     </Slider>
 
     <div className="glass_overlay">
         <div className="row blur_box">
-            <div className="col-lg-5">
+            <div className="col-lg-5 col-sm-5">
 
             </div>
 
-            <div className="col-lg-2">
+            <div className="col-lg-2 col-sm-2">
               
             </div>
 
-            <div className="col-lg-5">
+            <div className="col-lg-5 col-sm-5">
               
             </div>
         </div>

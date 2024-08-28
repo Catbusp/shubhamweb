@@ -8055,6 +8055,8 @@ transition: 0.4s;
 	  }
 	}
   }
+
+
   .custom-close-button {
 	// background-color: red;
 	border: none;
@@ -8069,7 +8071,6 @@ transition: 0.4s;
 	color: yellow;
   }
 
-
   .scroller{
 	background-color: #000000
   }
@@ -8083,6 +8084,8 @@ transition: 0.4s;
 // 	font-style: normal;
 // 	color: #E40191;
 //   }
+
+
 .text_stats{
 	font-family: "Work Sans", sans-serif !important;
 	font-size: 130px;
@@ -8258,26 +8261,29 @@ transition: 0.4s;
 	display: flex;
 	justify-content: center
 }
+.pricing_blocks {
+	display: none;
+}
+#heroVideo{
+	margin-top:25%;
+}
+
+a.CTA_buttons_header{
+	font-size: 15px;
+	color: rgba(229,1,144,1);
+	transition: 0.4s all ease;
+	border: 2px solid rgba(229,1,144,1);
+}
+a.CTA_buttons_header:hover{
+	font-size: 15px;
+	background: linear-gradient(145deg, rgba(229,1,144,1) 0%, rgba(158,6,215,1) 100%);
+	// padding: 15px 18px;
+	color: #fff;
+	border: 2px solid rgba(229, 1, 145, 0);
+	transition: 0.4s all ease;
+}
 
 
-@media screen and (max-device-width: 480px) 
-    and (orientation: portrait) {
-		.text_stats{
-			font-size: 70px;
-		}
-		.stats-img{
-			height: 120px;
-		}
-		.stats-img+div>h5{
-			font-size: 16px
-		}
-		.onovo-section{
-			padding-bottom: 20px
-		}
-		#offerings{
-			padding-bottom: 90px;
-		}
-	}
 	.autotypecf{
 		background-color: #fff;
 	}
@@ -8289,10 +8295,6 @@ transition: 0.4s;
 		padding-top: 12%;
 		background-color: #fff;
 		// border: 1px solid #000;
-	}
-
-	#heroVideo{
-		margin-top:25%
 	}
 
 	.fitwidth{
@@ -8327,18 +8329,22 @@ transition: 0.4s;
 		font-size: 15px;
 		color: #fff;
 	}
-	a.CTA_buttons_header{
-		font-size: 15px;
-		color: rgba(229,1,144,1);
-		transition: 0.4s all ease;
-		border: 2px solid rgba(229,1,144,1);
-	}
-	a.CTA_buttons_header:hover{
-		font-size: 15px;
-		background: linear-gradient(145deg, rgba(229,1,144,1) 0%, rgba(158,6,215,1) 100%);
-		// padding: 15px 18px;
+
+	a.CTA_buttons_m{
+		font-size: 17px;
+		padding: 15px 20px;
+		margin-bottom: 50px;
 		color: #fff;
-		border: 2px solid rgba(229, 1, 145, 0);
+		transition: 0.4s all ease;
+		background: linear-gradient(145deg, rgba(229,1,144,1) 0%, rgba(158,6,215,1) 100%);
+		// border: 2px solid rgba(229,1,144,1);
+		// margin-top: 2%;
+	}
+	
+	a.CTA_buttons_m:hover{
+		background: linear-gradient(145deg, rgb(221, 0, 140) 0%, rgb(155, 0, 211) 100%);
+		// padding: 15px 18px;
+		// border: 2px solid rgba(229, 1, 145, 0);
 		transition: 0.4s all ease;
 	}
 	.hamlines{
@@ -8359,6 +8365,235 @@ transition: 0.4s;
 			background-color: #fff;
 		}
 	}
+
+	.liveaction{
+		font-size: 2em;
+		font-weight: 700;
+	}
+	.liveaction+p{
+		font-size: 16px;
+		height: 182px;
+	}
+	.pricingtabs>div{
+		padding: 35px 25px;
+		// border: 2px solid #E40191;
+		margin: 20px;
+	}
+	.pricingtabs>div:nth-child(1)>p{
+		margin-bottom: 90px;
+	}
+
+	.pricingtabs>div:nth-child(2),.pricingtabs>div:nth-child(3),.pricingtabs>div:nth-child(4) {
+		text-align: center;
+		border: 2px solid #E40191;
+		background: rgba(255, 255, 255, 0.22);
+		border-radius: 16px;
+		// box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(6.3px);
+		-webkit-backdrop-filter: blur(6.3px);
+	}
+	.pricingtabs>div:nth-child(2)>span,.pricingtabs>div:nth-child(3)>span,.pricingtabs>div:nth-child(4)>span {
+		font-size: 15px;
+		// width: 60%;
+		margin: auto;
+	}
+
+	// .pricingtabs>div:nth-child(2)>p{
+	// 	color: #7C7C7C;
+	// 	font-size: 22px;
+	// 	font-weight: 500;
+	// 	font-family: "Poppins", sans-serif !important;
+	// }
+
+	#duration{
+		font-size: 16px;
+		color: black;
+		font-weight: 500;
+		margin-bottom: 60px;
+	}
+	.cost{
+		font-weight: 600;
+		color: #000;
+		font-size: 25px
+	}
+	.feature_block{
+		line-height: 1;
+		// margin-top: 130px;
+		margin-bottom: 80px;
+	}
+	
+	.feature_name{
+		font-size: 18px;
+		font-weight: 600;
+	}
+	.feature_item{
+		font-size: 16px;
+		border-bottom: 1px solid #D2D2D2;
+		padding-bottom: 8px
+	}
+	
+	.packspacer{
+		width: 100%;
+		height: 60px;
+	}
+
+	.feature_block2{
+		line-height: 1;
+		padding: 30px 35px 0px 35px;
+		// padding: 30px 35px;
+		margin-bottom: 68px;
+	}
+
+	.feature_item2{
+		font-size: 15px;
+		border-bottom: 1px solid #D2D2D2;
+		padding-bottom: 9px
+	}	
+	.header--builder{
+		padding-top: 2%;
+	}
+
+	.about-cf{
+		margin-top: 450px;
+	}
+	@media screen and (max-device-width: 480px) 
+    and (orientation: portrait) {
+		.text_stats{
+			font-size: 70px;
+		}
+		.stats-img{
+			height: 120px;
+		}
+		.stats-img+div>h5{
+			font-size: 16px
+		}
+		.onovo-section{
+			padding: 40px 10px 60px 10px;
+		}
+		.white-head{
+			width: 70%;
+		}
+		.white-head+p{
+			font-size:16px
+		}
+		#offerings{
+			padding-bottom: 90px;
+		}
+		.pricing_blocks{
+			display: block;
+		}
+		.pricing_extended{
+			display:none;
+		}
+		.autotypecf{
+			margin-top: -10%;
+		}
+		#heroVideo{
+			margin-top: 65%;
+			width: 100%;
+  			height: 320px;
+		}
+		a.CTA_buttons_header{
+			padding:8px 8px;
+			font-size: 12px;
+			margin-right: 12px;
+		}
+		a.onovo-menu-btn, .onovo-menu-btn{
+			width: 30px;
+			// height: 30px;
+		}
+		.header--white .onovo-logo-image img.logo--white{
+			max-width: 150px
+		}
+		.customHeader{
+			width: 90%;
+		}
+		.onovo-logo-image img{
+			margin-left: 0px;
+		}
+		.typing-section{
+			width: 95%;
+			height: 30vh;
+			margin: auto;
+			padding-top: 18%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.typing-section>div>h3{
+			font-size: 24px;
+		}
+		.react-typewriter-text{
+			font-size: 32px;
+		}
+		.fitwidth{
+			margin-top: 50px;
+			height: 0px;
+		}
+		.onovo-hero .title{
+			font-size: 40px;
+			margin-top: 20%;
+		}
+		.side_about_img{
+			display: none;
+		}
+		.onovo-showcase-item>.image{
+			display: none;
+		}
+		// .onovo-showcase-item>.title{
+		// 	font-size:20px
+		// }
+		.splitting span:not(.whitespace) {
+			// margin-top: 12px;
+			padding-bottom: 5px;
+		}
+		.onovo-lnk{
+			font-size:16px;
+			height: 20px;
+			padding-bottom: 20px;
+		}
+
+		.blur_box{
+			display: flex;
+			background-size: 35%;
+		}
+		.blur_box>div:nth-child(2){
+			width: 40%;
+		}
+		.blur_box>div:nth-child(1),.blur_box>div:nth-child(3){
+			width: 30%;
+		}
+		.windowtext>div>h4{
+			font-size: 20px;
+		}
+		.glass_overlay{
+			margin-top: -46%;
+			margin-bottom: 8%;
+		}
+		.windowtext{
+			padding-top: 22%;
+			padding-bottom: 10%;
+		}
+		.slick-dots{
+			display: none !important; 
+		}
+		.windowpeek{
+			font-size: 16px;
+		}
+		.onovo-hero{
+			height: 45vh;
+		}
+		.about-cf{
+			margin-top: 180px;
+		}
+		// .pop{
+		// 	width: 250px;
+		// 	border: 1px solid black;
+		// }
+		// .onovo-section{
+		// 	padding: 40px 0px 60px 0px;
+		// }
+	}
+	// 7C7C7C
 /* ---
 	Skin Options
 ---*/

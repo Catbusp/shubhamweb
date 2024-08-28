@@ -70,10 +70,10 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
     <>
       {/* Header */}
       <header className={darkHeader ? "onovo-header" : "onovo-header header--white"}>
-        <div className="header--builder pt-4">
+        <div className="header--builder">
           <div className="container-fluid customHeader">
             <div className="row">
-              <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center">
+              <div className=" col-sm-4 col-md-4 col-lg-3 align-self-center">
 
                 {/* Logo */}
                 {/* style={{"maxWidth": "300px"}} */}
@@ -85,7 +85,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                 </div>
 
               </div>
-              <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-5 align-self-center align-center">
+              <div className=" col-sm-2 col-md-4 col-lg-5 align-self-center align-center">
 
                 {/* Menu Hamburger */}
                 {/* <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /></a> */}
@@ -122,8 +122,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                 </div>
 
               </div>
-              <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-4 align-self-center align-right">
-
+              <div className=" col-sm-4 col-md-4 col-lg-4 align-self-center align-right">
                   {/* Button */}
                   {/* <Link className="onovo-head-btn onovo-hover-btn" href={appData.header.button.link}>
                     <span>
@@ -133,8 +132,8 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                       <span />
                     </i>
                   </Link> */}
-                  <a className="CTA_buttons_header" href="#">Contact Us</a>
-                  <a className="CTA_buttons_header" href="#">Know More</a>
+                  <a className="CTA_buttons_header" href="/contact">Contact Us</a>
+                  {/* <a className="CTA_buttons_header" href="#">Know More</a> */}
                 
                  {/* Menu Hamburger */}
                  {/* <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /><span /></a> */}

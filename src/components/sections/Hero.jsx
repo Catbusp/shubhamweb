@@ -47,10 +47,10 @@ const HeroSection = () => {
 			<section className="onovo-section onovo-hero">
 				<div className="autotypecf container-fluid">
 					<div className="row typing-section text-left">
-						<div className="col-lg-3 fitwidth">
+						<div className="col-lg-3 col-sm-6 fitwidth">
 							<h3 className="text-black">Say goodbye to</h3>
 						</div>	
-						<div className="col-lg-4">
+						<div className="col-lg-4 col-sm-6">
 							<TypeWriterEffect
 								startDelay={1000}
 								cursorColor="black"

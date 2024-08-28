@@ -78,7 +78,7 @@ const AboutSection = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
-              <div className="white-head text-capitalize">
+              <div className="text-capitalize">
                 <div className="onovo-subtitle-1 styletext">
                   <span>{Data.subtitle}</span>
                 </div>
