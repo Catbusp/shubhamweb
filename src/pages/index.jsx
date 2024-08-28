@@ -47,7 +47,7 @@ const Home1 = (props) => {
         <ShowcaseSection projects={props.projects} />
         {/* <ServicesSection /> */}
         {/* <TeamSection team={props.team} /> */}
-        <RoundTeam/>
+        {/* <RoundTeam/> */}
         <TeamSlider/>
         <WorkSlider/>
         {/* <TestimonialSlider id='clients'/> */}

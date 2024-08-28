@@ -42,9 +42,9 @@ function TeamSlider() {
       <div className='container-fluid team_member'>
           <div className='row'>
                 <div className='col-lg-6 col-sm-5'>
-                    <h4>Harshita Adlakha</h4>
-                    <p>Founder</p>
-                    <p>“A video is the moving face of your brand, capturing more attention and driving top-of-mind awareness.”</p>
+                    <h4>Ajay Adlakha</h4>
+                    <p>MD</p>
+                    <p>““I deliver because I live and breathe branding””</p>
                     <div className='social_testimonials'>
 
                     </div>
@@ -61,8 +61,8 @@ function TeamSlider() {
             <div className='row'>
                 <div className='col-lg-6 col-sm-5 '>
                     <h4>Satyendra Malik</h4>
-                    <p>Founder</p>
-                    <p>“A video is the moving face of your brand, capturing more attention and driving top-of-mind awareness.”</p>
+                    <p>CMO</p>
+                    <p>““With this ambitious team, I am sure that we will realize our ambitious objectives and persist in delivering unparalleled value to our esteemed clients.””</p>
                     <div className='social_testimonials'>
 
                     </div>

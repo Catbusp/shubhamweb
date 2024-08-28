@@ -36,6 +36,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/cfpricing.js"
+    ],
+    "/ourwork": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/ourwork.js"
     ]
   },
   "ampFirstPages": []
