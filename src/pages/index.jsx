@@ -6,9 +6,7 @@ import dynamic from "next/dynamic";
 import { getSortedPostsData } from "@library/posts";
 import { getSortedProjectsData } from "@library/projects";
 import { getSortedTeamData } from "@library/team";
-
 import { circleText } from "@common/utilits";
-
 //import HeroSection from "@components/sections/Hero";
 // import ServicesSection from "@components/sections/Services";
 import AboutSection from "@components/sections/About";
@@ -50,7 +48,7 @@ const Home1 = (props) => {
         {/* <ServicesSection /> */}
         {/* <TeamSection team={props.team} /> */}
         <RoundTeam/>
-        {/* <TeamSlider/> */}
+        <TeamSlider/>
         <WorkSlider/>
         {/* <TestimonialSlider id='clients'/> */}
         {/* <VideoSection /> */}

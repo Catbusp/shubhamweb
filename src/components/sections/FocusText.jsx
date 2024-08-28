@@ -11,6 +11,7 @@ export default function FocusText() {
     autoplay: true,
     autoplaySpeed: 2500
   };
+
   return (
     <div className="focuswindow mt-5">
         <h2 className="onovo-title-2 text-capitalize text-center">
@@ -64,7 +65,7 @@ export default function FocusText() {
             </div>
         </div>
     </div>
-
+   
     </div>
   );
 }

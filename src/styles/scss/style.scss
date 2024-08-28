@@ -8101,11 +8101,31 @@ transition: 0.4s;
     justify-content: center;
     margin-left: 125px;
 }
+.team_member{
+	width: 90%;
+	margin: auto;
+}
+
+.team_member>div>div>p:nth-child(2){
+	font-size: 18px;
+	color: rgb(167, 167, 167);
+	margin-top: -8px;
+}
+.team_member>div>div>p:nth-child(3){
+	font-size: 24px;
+	width: 90%;
+}
+
+
 .team_member> div> div:nth-child(1){
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin: auto;
+	// padding: 4% 4% 4% 10%;
+
 }
+
 .team_member> div> div:nth-child(1)>p:nth-child(2){
 
 }
@@ -8168,6 +8188,7 @@ transition: 0.4s;
   .windowtext{
 	z-index: 10;
   }
+  
 
 .glass_overlay{
 	// position: absolute;
@@ -8456,6 +8477,11 @@ a.CTA_buttons_header:hover{
 	.about-cf{
 		margin-top: 450px;
 	}
+
+	.newmembers{
+		width: 90%;
+	}
+
 	@media screen and (max-device-width: 480px) 
     and (orientation: portrait) {
 		.text_stats{
