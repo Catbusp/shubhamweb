@@ -47,10 +47,53 @@ const HeroSection = () => {
 			<section className="onovo-section onovo-hero">
 				<div className="autotypecf container-fluid">
 					<div className="row typing-section text-left">
-						<div className="col-lg-3 col-sm-6 fitwidth">
-							<h3 className="text-black">Say goodbye to</h3>
+						<div className="col-lg-10 col-md-10 col-sm-10">
+							{/* <h6 style={}>Content Foundry</h6> */}
+							<h3 className="text-black">
+								Content Foundry says <br /><span className="d-flex goodbye">goodbye to 
+								<TypeWriterEffect
+								startDelay={1000}
+								cursorColor="black"
+								multiText={[
+									"Non-Engaging Videos",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+									"Non-Engaging Videos",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+									"Non-Engaging Videos",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+									"Non-Engaging Videos",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+								]}
+								multiTextDelay={1000}
+								typeSpeed={150}
+							/></span>
+								</h3>
 						</div>	
-						<div className="col-lg-4 col-sm-6">
+						{/* <div className="col-lg-4 col-sm-6">
 							<TypeWriterEffect
 								startDelay={1000}
 								cursorColor="black"
@@ -91,7 +134,7 @@ const HeroSection = () => {
 								multiTextDelay={1000}
 								typeSpeed={150}
 							/>
-						</div>	
+						</div>	 */}
 					</div>
 				</div>
 				<div className="image">

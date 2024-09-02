@@ -50,9 +50,9 @@ const Home1 = (props) => {
         {/* <RoundTeam/> */}
         <TeamSlider/>
         <WorkSlider/>
-        {/* <TestimonialSlider id='clients'/> */}
+        <TestimonialSlider id='clients'/>
         {/* <VideoSection /> */}
-        <CountersSection />
+        {/* <CountersSection /> */}
         {/* <Companies/> */}
         {/* <CallToActionSection /> */}
         {/* <LatestPostsSection posts={props.posts} /> */}

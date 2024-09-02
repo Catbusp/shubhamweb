@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
-import HarshitaAdlakha from '../../../public/images/team/HarshitaAdlakha.png'
-import Satyendra from '../../../public/images/team/satyendramallik.png'
-import Ajay from '../../../public/images/team/ajayadlakha.png'
+import HarshitaAdlakha from '../../../public/images/team/Harshita_Adlakha.png'
+import Satyendra from '../../../public/images/team/Satyendra_malik.png'
+import Ajay from '../../../public/images/team/Ajay_Adlakha.png'
 
 function TeamSlider() {
   const [index, setIndex] = useState(0);
@@ -38,7 +38,7 @@ function TeamSlider() {
         </div>
       </Carousel.Item>
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
       <div className='container-fluid team_member'>
           <div className='row'>
                 <div className='col-lg-6 col-sm-5'>
@@ -54,14 +54,14 @@ function TeamSlider() {
                 </div>
             </div>
         </div>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
       <Carousel.Item>
       <div className='team_member'>
             <div className='row'>
                 <div className='col-lg-6 col-sm-5 '>
                     <h4>Satyendra Malik</h4>
-                    <p>CMO</p>
+                    <p>Co-Founder</p>
                     <p>““With this ambitious team, I am sure that we will realize our ambitious objectives and persist in delivering unparalleled value to our esteemed clients.””</p>
                     <div className='social_testimonials'>
 

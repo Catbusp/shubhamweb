@@ -12,6 +12,11 @@ const TestimonialSlider = () => {
                 {/* Reviews */}
                 <div className="onovo-reviews">
                     <div className="row">
+                            <div className="onovo-heading gap-bottom-100 text-capitalize">
+                                <h2 className="onovo-title-2 text-center">
+                                    <span>What do our Clients say?</span>
+                                </h2>
+                            </div>
                         {/* <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 
                             <div className="onovo-reviews-titles">
@@ -29,7 +34,7 @@ const TestimonialSlider = () => {
                             </div>
 
                         </div> */}
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 gap-bottom-100">
+                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 gap-bottom-70">
 
                             {/* Reviews swiper */}
                             <div className="onovo-reviews-carousel text-center">
@@ -39,17 +44,22 @@ const TestimonialSlider = () => {
                                 >
                                     {Data.items.map((item, key) => (
                                     <SwiperSlide key={`tts-slide-${key}`} className="swiper-slide onovo-reviews-item">
+                                        <div className="person-box">
+                                            <div className="pdetails">
+                                                <h5 className="title">
+                                                    <span data-splitting>{item.name}</span>
+                                                </h5>
+                                                <div className="subtitle">
+                                                    <span data-splitting>{item.role}</span>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div className="text">
                                             <div data-splitting>
                                                 <p dangerouslySetInnerHTML={{__html: "“"+item.text+"”"}} />
                                             </div>
                                         </div>
-                                        <h5 className="title">
-                                            <span data-splitting>{item.name}</span>
-                                        </h5>
-                                        <div className="subtitle">
-                                            <span data-splitting>{item.role}</span>
-                                        </div>
+                                       
                                     </SwiperSlide>
                                     ))}
                                 </Swiper>

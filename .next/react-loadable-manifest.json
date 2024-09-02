@@ -22,17 +22,5 @@
     "files": [
       "static/chunks/src_components_sliders_Ticker_jsx.js"
     ]
-  },
-  "ourwork.jsx -> @components/sliders/History": {
-    "id": "ourwork.jsx -> @components/sliders/History",
-    "files": [
-      "static/chunks/src_components_sliders_History_jsx.js"
-    ]
-  },
-  "ourwork.jsx -> @components/sliders/Testimonial2": {
-    "id": "ourwork.jsx -> @components/sliders/Testimonial2",
-    "files": [
-      "static/chunks/src_components_sliders_Testimonial2_jsx.js"
-    ]
   }
 }

@@ -3,8 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/cfpricing": "pages/cfpricing.js",
-  "/contact": "pages/contact.js",
   "/ourwork": "pages/ourwork.js",
-  "/404": "pages/404.js"
+  "/contact": "pages/contact.js"
 }

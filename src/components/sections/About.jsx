@@ -1,6 +1,9 @@
 import Data from "@data/sections/about.json";
 import Link from "next/link";
 import Side_about from '../../../public/images/team/004_pop.png'
+import Likes from '../../../public/images/likes.png'
+import Engage from '../../../public/images/engage.png'
+import Interact from '../../../public/images/interact.png'
 
 const AboutSection = () => {
   return (
@@ -98,7 +101,30 @@ const AboutSection = () => {
               <a className="CTA_buttons" href="#">Let's Connect</a>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 side_about_img">
-              <img src={Side_about.src} className='w-100' alt="" />
+              {/* <img src={Side_about.src} className='w-100' alt="" /> */}
+              <div className="about-stats">
+                <div className="statsbox">
+                    <img src={Likes.src} alt="" />
+                    <div>
+                      <h2 className="text-white">54%</h2>
+                      <p>User Satisfaction</p>
+                    </div>
+                </div>
+                <div className="statsbox">
+                    <img src={Interact.src} alt="" />
+                    <div className="">
+                      <h2 className="text-white">88%</h2>
+                      <p>User Interaction</p>
+                    </div>
+                </div>
+                <div className="statsbox">
+                    <img src={Engage.src} alt="" />
+                    <div>
+                      <h2 className="text-white">64%</h2>
+                      <p>User Engagement</p>
+                    </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

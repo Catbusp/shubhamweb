@@ -20,15 +20,15 @@ const DefaultFooter = () => {
                             <div className="connect m-auto">
                                 <p>Discuss over a coffee?</p>
                                  <h2>Let's Connect</h2>
-                                 <div className="locate-details">
-                                    <div className="col-lg-4">
-                                        <h4 className="text-white">info@contentfoundry.in</h4>
+                                 <div className="row locate-details align-center">
+                                    <div className="col-lg-4 col-md-4 col-sm-10">
+                                        <h5 className="text-white"> info@contentfoundry.in </h5>
                                     </div>
-                                    <div className="col-lg-4">
-                                        <h4 className="text-white">Get a Quote</h4>
+                                    <div className="col-lg-4 col-md-4 col-sm-10">
+                                        <h5 className="text-white border-text"> Get a Quote</h5>
                                     </div>
-                                    <div className="col-lg-4">
-                                        <h4 className="text-white">+91 98113 46401</h4>
+                                    <div className="col-lg-4 col-md-4 col-sm-10">
+                                        <h5 className="text-white">+91 98113 46401</h5>
                                     </div>
                                 </div>
                             </div>
