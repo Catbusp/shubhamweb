@@ -95,7 +95,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                   <div className="onovo-menu-overlay-after" />
 
                   <div className="onovo-menu-container onovo--noscroll">
-                    <div className="container">
+                    <div className="container sidebardown">
                       <div className="onovo-menu">
                         <ul className="onovo-menu-nav">
                           {navItems.map((item, key) => (
@@ -122,7 +122,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                 </div>
 
               </div>
-              <div className=" col-sm-4 col-md-4 col-lg-4 align-self-center align-right">
+              <div className=" col-sm-4 col-md-4 col-lg-4 align-self-center align-right headercta">
                   {/* Button */}
                   {/* <Link className="onovo-head-btn onovo-hover-btn" href={appData.header.button.link}>
                     <span>

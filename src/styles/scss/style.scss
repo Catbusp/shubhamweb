@@ -3112,6 +3112,12 @@ a.onovo-menu-btn,
 	.onovo-menu ul.sub-menu .opened ul.sub-menu {
 		margin-top: 15px;
 	}
+	.header--builder{
+		margin-top: 20px;
+	}
+	.sidebardown{
+		padding-top: 0;
+	}
 }
 
 @media (max-width: 767px) {
@@ -8559,7 +8565,7 @@ a.CTA_buttons_header:hover{
 			font-size: 16px
 		}
 		.onovo-section{
-			padding: 40px 10px 60px 10px;
+			// padding: 25px 10px 60px 10px;
 		}
 		.white-head{
 			width: 70%;
@@ -8580,7 +8586,7 @@ a.CTA_buttons_header:hover{
 			margin-top: -10%;
 		}
 		#heroVideo{
-			margin-top: 65%;
+			margin-top: 60%;
 			width: 100%;
   			height: 300px;
 		}
@@ -8594,7 +8600,8 @@ a.CTA_buttons_header:hover{
 			// height: 30px;
 		}
 		.header--white .onovo-logo-image img.logo--white{
-			max-width: 150px
+			max-width: 150px;
+			max-width: 70px;
 		}
 		.customHeader{
 			width: 90%;
@@ -8604,9 +8611,9 @@ a.CTA_buttons_header:hover{
 		}
 		.typing-section{
 			width: 95%;
-			height: 30vh;
+			height: 28vh;
 			margin: auto;
-			padding-top: 18%;
+			padding-top: 30%;
 			padding-left: 0;
 			padding-right: 0;
 		}
@@ -8614,7 +8621,10 @@ a.CTA_buttons_header:hover{
 			font-size: 24px;
 		}
 		.react-typewriter-text{
-			font-size: 32px;
+			font-size: 24px;
+		}
+		.headercta{
+			margin-top: -40px;
 		}
 		.fitwidth{
 			margin-top: 50px;
@@ -8689,7 +8699,18 @@ a.CTA_buttons_header:hover{
 			height: 45vh;
 		}
 		.about-cf{
-			margin-top: 180px;
+			margin-top: 135px;
+			padding-top: 60px;
+			padding-bottom: 60px
+		}
+		.team_member>div>div>p:nth-child(3){
+			font-size: 16px;
+		}
+		.team_member > div > div > p:nth-child(2){
+			font-size: 16px
+		}
+		.back_person > img{
+			margin-left: 60px
 		}
 		// .pop{
 		// 	width: 250px;
