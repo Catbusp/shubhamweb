@@ -26,10 +26,13 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.css" />
           <link rel="stylesheet" href="/css/vendors/magnific-popup.css" />
           {/* public assets end */}
+          
         </Head>
         <body>
           <Main />
           <NextScript />
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNP5TPNK" height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe>
+            </noscript>
         </body>
       </Html>
     );

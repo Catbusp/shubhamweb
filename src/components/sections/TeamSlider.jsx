@@ -14,11 +14,11 @@ function TeamSlider() {
 
   return (
     <div className='container mb-5'>
-          <div className="onovo-heading align-center gap-bottom-40">
-						<h2 className="onovo-title-2">
-							<span> The Faces Behind The Perfection</span>
-						</h2>
-					</div>  
+          <div className="onovo-heading gap-bottom-100 text-capitalize">
+              <h2 className="onovo-title-2 text-center">
+                  <span>Faces Behind The Perfection</span>
+              </h2>
+          </div>
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <div className='team_member'>
