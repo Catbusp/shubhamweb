@@ -5448,7 +5448,7 @@ ul.onovo-footer-menu li {
 		display: none;
 	}
 	.js-reviews-carousel-navs {
-		margin-top: 30px;
+		margin-top: 0px;
 		position: relative;
 		left: 6%;
 	}
@@ -8527,6 +8527,13 @@ a.CTA_buttons_header:hover{
 		text-align: center;
 		margin: auto;
 		margin-top: -15px;
+		transition: 0.5 all;
+	}
+	.border-text:hover{
+		background-color: #E40494;
+		color: white;
+		cursor: pointer;
+		transition: 0.5 all;
 	}
 	.typing-section>div>h3{
 		font-size: 45px;
@@ -8573,11 +8580,32 @@ a.CTA_buttons_header:hover{
 			margin-bottom: 20px;
 			margin-top: 20px;
 		}
+		.onovo-reviews-item .text p {
+			margin-top: 15px;
+			// text-align: left;
+			font-size: 17px;
+		}
+		.pdetails>.title{
+			font-size: 21px;
+		}
+		.pdetails>.subtitle{
+			font-size: 16px;
+		}
+		.border-text{
+			padding: 10px;
+			width: 50%;
+			font-size: 17px;
+			margin:15px auto;
+		}
+		.locate-details>div:nth-child(1)>h5,.locate-details>div:nth-child(3)>h5{
+			font-size: 18px;
+			margin:15px auto;
+		}
 		.stats-img{
 			height: 120px;
 		}
 		.stats-img+div>h5{
-			font-size: 16px
+			font-size: 16px;
 		}
 		.onovo-section{
 			// padding: 25px 10px 60px 10px;
@@ -8607,7 +8635,7 @@ a.CTA_buttons_header:hover{
 		}
 		a.CTA_buttons_header{
 			padding:8px 8px;
-			font-size: 12px;
+			font-size: 14px;
 			margin-right: 12px;
 		}
 		a.onovo-menu-btn, .onovo-menu-btn{
@@ -8615,8 +8643,8 @@ a.CTA_buttons_header:hover{
 			// height: 30px;
 		}
 		.header--white .onovo-logo-image img.logo--white{
-			max-width: 150px;
-			max-width: 70px;
+			// max-width: 150px;
+			max-width: 75px;
 		}
 		.customHeader{
 			width: 90%;
@@ -8628,15 +8656,15 @@ a.CTA_buttons_header:hover{
 			width: 95%;
 			height: 28vh;
 			margin: auto;
-			padding-top: 30%;
+			padding-top: 40%;
 			padding-left: 0;
 			padding-right: 0;
 		}
 		.typing-section>div>h3{
-			font-size: 24px;
+			font-size: 21px;
 		}
 		.react-typewriter-text{
-			font-size: 24px;
+			font-size: 21px;
 		}
 		.headercta{
 			margin-top: -40px;
@@ -8647,7 +8675,8 @@ a.CTA_buttons_header:hover{
 		}
 		.onovo-hero .title{
 			font-size: 40px;
-			margin-top: 20%;
+			margin-top: 10%;
+			line-height: 1.5;
 		}
 		.side_about_img{
 			display: none;
@@ -8660,8 +8689,8 @@ a.CTA_buttons_header:hover{
 		// }
 
 		.splitting span:not(.whitespace) {
-			margin-top: 12px;
-			padding-bottom: 5px;
+			margin-top: 2px;
+			// padding-bottom: 5px;
 		}
 
 		#offerings{
