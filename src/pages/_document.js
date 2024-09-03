@@ -8,6 +8,7 @@ class MyDocument extends Document {
           {/* meta begin */}
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+          <meta name="google-site-verification" content="yeT3GnRFP5sMaa9Fsyl-UNvefwbhpsmHPMjQqtSdmQM" />
           {/* meta end */}
 
           {/* favicon begin */}
