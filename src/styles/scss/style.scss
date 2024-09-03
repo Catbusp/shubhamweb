@@ -3242,7 +3242,8 @@ ul.onovo-footer-menu li {
 
 @media (max-width: 767px) {
 	.onovo-footer .copyright {
-		font-size: 16px;
+		font-size: 14px;
+		text-align: center;
 	}
 	.printsmith,.brandshaala,.infinity{
 		height: 300px;
@@ -8553,10 +8554,24 @@ a.CTA_buttons_header:hover{
 		padding-left: 15%;
 	}
 
+
 	@media screen and (max-device-width: 480px) 
     and (orientation: portrait) {
 		.text_stats{
 			font-size: 70px;
+		}
+		.policies{
+			padding-left: 3%;
+		}
+		.onovo-social-1 ul{
+			// margin: auto;
+			text-align: center;
+			padding: 20px 10px 0px 10px;
+		}
+		.footer-logo{
+			width:30%;
+			margin-bottom: 20px;
+			margin-top: 20px;
 		}
 		.stats-img{
 			height: 120px;

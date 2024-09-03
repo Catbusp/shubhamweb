@@ -39,10 +39,10 @@ const DefaultFooter = () => {
 
                 <div className="footer-container">
                     <div className="row">
-                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-10">
+                        <div className="col-xs-6 col-sm-6 col-md-6 col-lg-10">
                             <div className="onovo-text onovo-text-white">
                                 {/* <h5>Information</h5> */}
-                                <img src={ContentFoundrylogo.src}/>
+                                <img className="footer-logo" src={ContentFoundrylogo.src}/>
                             </div>
 
                         </div>
@@ -58,7 +58,7 @@ const DefaultFooter = () => {
                             </div>
                         </div> */}
 
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2 pl-4">
+                        <div className="col-xs-6 col-sm-6 col-md-12 col-lg-2 pl-4">
                             <div className="row">
                                 <div className="onovo-text onovo-text-white policies">
                                     {/* <h5>Get in Touch</h5> */}

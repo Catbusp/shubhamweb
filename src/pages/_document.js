@@ -29,8 +29,8 @@ class MyDocument extends Document {
           
         </Head>
         <body>
-          <Main />
-          <NextScript />
+          <Main/>
+          <NextScript/>
           <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNP5TPNK" height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe>
             </noscript>
         </body>
