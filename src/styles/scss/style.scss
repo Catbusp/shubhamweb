@@ -8272,7 +8272,8 @@ transition: 0.4s;
   }
 
 .showcasework{
-	padding-top: 11%;
+	// padding-top: 11%;
+	padding-top: 5%;
 	padding-bottom: 6%
 }
 
@@ -8772,6 +8773,10 @@ a.CTA_buttons_header:hover{
 		.focuswindow{
 			display: none
 		}
+		.cf-heading{
+			width: 100%;
+			margin-bottom: 4%;
+		  }
 	}
 
 /* ---

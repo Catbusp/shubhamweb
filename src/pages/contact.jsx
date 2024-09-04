@@ -51,10 +51,12 @@ const Contact = () => {
 
   return (
     <Layouts>
-        <PageBanner pageTitle={"YOU’RE HERE RIGHT ON TIME"} pageDesc={"DROP US A MESSAGE."} />
+        {/* <PageBanner pageTitle={"YOU’RE HERE RIGHT ON TIME"} pageDesc={"DROP US A MESSAGE."} /> */}
+
+        <PageBanner pageTitle={""} pageDesc={""} />
 
         {/* Onovo Contact Info */}
-        <section className="onovo-section gap-top-10 gap-bottom-80 ">
+        <section className="onovo-section gap-bottom-80 ">
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
