@@ -141,6 +141,12 @@ b, strong {
 .focuswindow{
 	width: 90%;
 	margin: auto;
+	display: block;
+}
+.focuswindow2{
+	width: 90%;
+	margin: auto;
+	display: none;
 }
 .wrapper {
 	position: relative;
@@ -8755,15 +8761,14 @@ a.CTA_buttons_header:hover{
 		.back_person > img{
 			margin-left: 60px
 		}
-		// .pop{
-		// 	width: 250px;
-		// 	border: 1px solid black;
-		// }
-		// .onovo-section{
-		// 	padding: 40px 0px 60px 0px;
-		// }
+		.focuswindow2{
+			display: block;
+		}
+		.focuswindow{
+			display: none
+		}
 	}
-	// 7C7C7C
+
 /* ---
 	Skin Options
 ---*/

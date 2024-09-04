@@ -13,6 +13,7 @@ import AboutSection from "@components/sections/About";
 import ShowcaseSection from "@components/sections/Showcase";
 import TeamSection from "@components/sections/Team";
 import FocusText from "../components/sections/FocusText";
+import FocusWindow from "../components/sections/FocusWindow";
 // import VideoSection from "@components/sections/Video";
 import CountersSection from "@components/sections/Counters";
 import RoundTeam from "../components/sections/RoundTeam";
@@ -42,6 +43,7 @@ const Home1 = (props) => {
         <HeroSection />
         <AboutSection/>
         <FocusText/>
+        <FocusWindow/>
         <Slidertest/>
         {/* <TickerSlider /> */}
         <ShowcaseSection projects={props.projects} />
