@@ -8566,10 +8566,15 @@ a.CTA_buttons_header:hover{
 	.about-stats{
 		padding-left: 15%;
 	}
-
+	.sublogo{
+		width: 15%;
+	}
 
 	@media screen and (max-device-width: 480px) 
     and (orientation: portrait) {
+		.sublogo{
+			width: 35%;
+		}	
 		.text_stats{
 			font-size: 70px;
 		}
@@ -8667,10 +8672,10 @@ a.CTA_buttons_header:hover{
 			padding-right: 0;
 		}
 		.typing-section>div>h3{
-			font-size: 21px;
+			font-size: 20px;
 		}
 		.react-typewriter-text{
-			font-size: 21px;
+			font-size: 20px;
 		}
 		.headercta{
 			margin-top: -40px;

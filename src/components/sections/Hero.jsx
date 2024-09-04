@@ -7,6 +7,7 @@ import 'splitting/dist/splitting-cells.css'
 import Splitting from 'splitting'
 import ScrollOut from 'scroll-out'
 import Modal from "./Modal";
+import subLogo from '../../../public/images/logo-main2.png'
 
 const HeroSection = () => {
 	useEffect(() => {
@@ -49,13 +50,15 @@ const HeroSection = () => {
 					<div className="row typing-section text-left">
 						<div className="col-lg-10 col-md-10 col-sm-10">
 							{/* <h6 style={}>Content Foundry</h6> */}
+							<img src={subLogo.src} className="sublogo" alt="" />
+							<br />
 							<h3 className="text-black">
-								Content Foundry says <br /><span className="d-flex goodbye">goodbye to 
+								<span className="d-flex goodbye"> says goodbye to 
 								<TypeWriterEffect
 								startDelay={1000}
 								cursorColor="black"
 								multiText={[
-									"Non-Engaging Videos",
+									 
 									"Boring Videos",
 									"Dull Content",
 									"Bland Frames",
@@ -63,7 +66,6 @@ const HeroSection = () => {
 									"Clinge Clips",
 									"Mediocre Shoots",
 									"Half-Baked Edits",
-									"Non-Engaging Videos",
 									"Boring Videos",
 									"Dull Content",
 									"Bland Frames",
@@ -71,7 +73,6 @@ const HeroSection = () => {
 									"Clinge Clips",
 									"Mediocre Shoots",
 									"Half-Baked Edits",
-									"Non-Engaging Videos",
 									"Boring Videos",
 									"Dull Content",
 									"Bland Frames",
@@ -79,7 +80,34 @@ const HeroSection = () => {
 									"Clinge Clips",
 									"Mediocre Shoots",
 									"Half-Baked Edits",
-									"Non-Engaging Videos",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
+									"Boring Videos",
+									"Dull Content",
+									"Bland Frames",
+									"Flat Creations",
+									"Clinge Clips",
+									"Mediocre Shoots",
+									"Half-Baked Edits",
 									"Boring Videos",
 									"Dull Content",
 									"Bland Frames",
@@ -98,7 +126,7 @@ const HeroSection = () => {
 								startDelay={1000}
 								cursorColor="black"
 								multiText={[
-									"Non-Engaging Videos",
+									 
 									"Boring Videos",
 									"Dull Content",
 									"Bland Frames",
@@ -106,7 +134,7 @@ const HeroSection = () => {
 									"Clinge Clips",
 									"Mediocre Shoots",
 									"Half-Baked Edits",
-									"Non-Engaging Videos",
+									 
 									"Boring Videos",
 									"Dull Content",
 									"Bland Frames",
@@ -114,7 +142,7 @@ const HeroSection = () => {
 									"Clinge Clips",
 									"Mediocre Shoots",
 									"Half-Baked Edits",
-									"Non-Engaging Videos",
+									 
 									"Boring Videos",
 									"Dull Content",
 									"Bland Frames",
@@ -122,7 +150,7 @@ const HeroSection = () => {
 									"Clinge Clips",
 									"Mediocre Shoots",
 									"Half-Baked Edits",
-									"Non-Engaging Videos",
+									 
 									"Boring Videos",
 									"Dull Content",
 									"Bland Frames",
