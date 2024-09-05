@@ -53,7 +53,7 @@ const HeroSection = () => {
 							<img src={subLogo.src} className="sublogo" alt="" />
 							<br />
 							<h3 className="text-black">
-								<span className="d-flex goodbye"> says goodbye to 
+								<span className="d-flex goodbye"> Say goodbye to 
 								<TypeWriterEffect
 								startDelay={1000}
 								cursorColor="black"
