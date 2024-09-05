@@ -35,7 +35,9 @@ const Ourwork = (props) => {
 
   return (
     <Layouts>
-    	<PageBanner pageTitle={"We bring your boldest ideas to life"} pageDesc={""} />
+    	{/* <PageBanner pageTitle={"We bring your boldest ideas to life"} pageDesc={""} /> */}
+    	<PageBanner pageTitle={""} pageDesc={""} />
+
       
       	{/* Onovo About */}
 	  	{/* <section className="onovo-section gap-top-140">
@@ -62,6 +64,7 @@ const Ourwork = (props) => {
 
 			</div>
 		</section> */}
+		
 		<WorkTiles/>
 		{/* <Services4Section services={props.services} /> */}
 

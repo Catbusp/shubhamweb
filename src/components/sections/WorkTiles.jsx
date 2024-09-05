@@ -91,6 +91,11 @@ const WorkTiles = () => {
      
       <section className='onovo-section'>
         <div className='container-fluid'>
+           <div className="onovo-heading gap-bottom-40 text-capitalize">
+						<h2 className="onovo-title-2">
+							<span>We Bring The Boldest To Life</span>
+						</h2>
+					</div>
           <div className='row d-flex'>
             {Card.map((e) => {
               return (
