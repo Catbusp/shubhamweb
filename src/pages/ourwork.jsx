@@ -7,7 +7,7 @@ import { getSortedServicesData } from "@library/services";
 
 // import CountUp from 'react-countup';
 import { circleText } from "@common/utilits";
-
+import { Helmet } from "react-helmet";
 import PageBanner from "@components/PageBanner";
 // import Team2Section from "@components/sections/Team2"
 // import PartnersSection from "@components/sections/Partners"

@@ -1,6 +1,7 @@
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import CFPricingBar from "../components/sections/CfPricingBar";
+import { Helmet } from "react-helmet";
 
 const Cfpricing = () => {
   return (
