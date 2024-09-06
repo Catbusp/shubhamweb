@@ -26,6 +26,7 @@ import WorkSlider from "../components/sections/WorkSlider";
 import TeamSlider from "../components/sections/TeamSlider";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Helmet } from "react-helmet";
 
 
 const HeroSection = dynamic( () => import("@components/sections/Hero"), { ssr: false } );
@@ -40,6 +41,12 @@ const Home1 = (props) => {
   return (
     <Layouts>
       <>
+        <Helmet>
+          <meta property="og:title" content="Top video content creation & production services in delhi ncr - content foundry" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.contentfoundry.in/" />
+          <meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />
+        </Helmet>
         <HeroSection />
         <AboutSection/>
         <FocusText/>

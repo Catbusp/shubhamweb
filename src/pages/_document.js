@@ -9,11 +9,19 @@ class MyDocument extends Document {
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
           <meta name="google-site-verification" content="yeT3GnRFP5sMaa9Fsyl-UNvefwbhpsmHPMjQqtSdmQM" />
+          <meta name="description" content="Upscale your business with premium video content creation and production services
+          at Content Foundry. Our experts deliver high-quality, engaging videos to enhance your brand&#39;s presence." />
+          <meta name="title" content="Top Video Content Creation &amp; Production Services in Delhi NCR - Content Foundry"></meta>
           {/* meta end */}
 
           {/* favicon begin */}
           <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
 	        <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+          <link rel="canonical" href="https://www.contentfoundry.in/" />
+          <link rel="canonical" href="https://www.contentfoundry.in/ourwork" />
+          <link rel="canonical" href="https://www.contentfoundry.in/cfpricing" />
+          <link rel="canonical" href="https://www.contentfoundry.in/contact" />
+
           {/* favicon */}
 
           {/* Fonts */}

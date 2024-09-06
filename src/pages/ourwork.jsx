@@ -15,7 +15,6 @@ import PageBanner from "@components/PageBanner";
 // import Services4Section from "@components/sections/Services4"
 // import Companies from "../components/sections/Companies";
 import WorkTiles from "../components/sections/WorkTiles";
-
 const HistorySlider = dynamic( () => import("@components/sliders/History"), { ssr: false } );
 const Testimonial2Slider = dynamic( () => import("@components/sliders/Testimonial2"), { ssr: false } );
 
@@ -34,11 +33,16 @@ const Ourwork = (props) => {
   }
 
   return (
+	<div>
+		<Helmet>
+			<meta property="og:title" content="our work | leading video production company in delhi ncr" />
+			<meta property="og:type" content="website" />
+			<meta property="og:url" content="https://www.contentfoundry.in/ourwork" />
+			<meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />
+		</Helmet>
     <Layouts>
     	{/* <PageBanner pageTitle={"We bring your boldest ideas to life"} pageDesc={""} /> */}
     	<PageBanner pageTitle={""} pageDesc={""} />
-
-      
       	{/* Onovo About */}
 	  	{/* <section className="onovo-section gap-top-140">
 			<div className="container">
@@ -79,6 +83,7 @@ const Ourwork = (props) => {
       	{/* <PartnersSection /> */}
       
     </Layouts>
+	</div>
   );
 };
 export default Ourwork;

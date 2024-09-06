@@ -5,6 +5,7 @@ import appData from "@data/app.json";
 import { Formik } from 'formik';
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
     const form = useRef();
@@ -50,6 +51,13 @@ const Contact = () => {
   }
 
   return (
+    <div>
+        <Helmet>
+            <meta property="og:title" content="contact us - video production company | content foundry" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.contentfoundry.in/contact " />
+            <meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />
+        </Helmet>
     <Layouts>
         {/* <PageBanner pageTitle={"YOU’RE HERE RIGHT ON TIME"} pageDesc={"DROP US A MESSAGE."} /> */}
 
@@ -339,6 +347,7 @@ const Contact = () => {
         </section> */}
       
     </Layouts>
+    </div>
   );
 };
 export default Contact;
