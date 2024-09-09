@@ -6,7 +6,6 @@ import { Formik } from 'formik';
 import Head from "next/head";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import Head from "next/head";
 import { Helmet } from 'react-helmet';
 
 const Contact = () => {
