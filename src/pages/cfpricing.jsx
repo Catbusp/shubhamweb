@@ -2,9 +2,9 @@ import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import CFPricingBar from "../components/sections/CfPricingBar";
 import Head from "next/head";
+import { useEffect } from "react";
 
 const Cfpricing = () => {
-  
   useEffect(() => {
     document.title = 'Video Production Services & Cost in Delhi NCR | Content Foundry';
   }, []);

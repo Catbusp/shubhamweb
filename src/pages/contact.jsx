@@ -2,7 +2,7 @@ import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
 import appData from "@data/app.json";
 import Head from "next/head";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import emailjs from '@emailjs/browser';;
 
 const Contact = () => {

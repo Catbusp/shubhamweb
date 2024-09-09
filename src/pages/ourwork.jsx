@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import dynamic from "next/dynamic";
 import Layouts from "@layouts/Layouts";
-
 import { getSortedTeamData } from "@library/team";
 import { getSortedServicesData } from "@library/services";
 import Head from "next/head";
