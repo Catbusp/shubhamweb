@@ -6,6 +6,8 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {/* meta begin */}
+        <title>Top Video Content Creation & Production Services in Delhi NCR - Content Foundry</title>
+
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
           <meta name="google-site-verification" content="yeT3GnRFP5sMaa9Fsyl-UNvefwbhpsmHPMjQqtSdmQM" />
@@ -15,8 +17,8 @@ class MyDocument extends Document {
           {/* meta end */}
 
           {/* favicon begin */}
-          <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
-	        <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+          <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon" />
+	        <link rel="icon" href="/favicon/favicon.png" type="image/x-icon" />
           <link rel="canonical" href="https://www.contentfoundry.in/" />
           <link rel="canonical" href="https://www.contentfoundry.in/ourwork" />
           <link rel="canonical" href="https://www.contentfoundry.in/cfpricing" />

@@ -19,8 +19,11 @@ function MyApp({ Component, pageProps }) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="HandheldFriendly" content="true" />
           <meta name="author" content="bslthemes" />
-          {/* seo end */}        
+          {/* seo end */}     
+          <title>Top Video Content Creation & Production Services in Delhi NCR - Content Foundry</title>
+             
       </Head>
+      
       <Script id="gtm" strategy="afterInteractive">
         {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
