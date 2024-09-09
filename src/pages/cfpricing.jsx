@@ -4,6 +4,11 @@ import CFPricingBar from "../components/sections/CfPricingBar";
 import Head from "next/head";
 
 const Cfpricing = () => {
+  
+  useEffect(() => {
+    document.title = 'Video Production Services & Cost in Delhi NCR | Content Foundry';
+  }, []);
+
   return (
       <div>
         <Head>

@@ -7,7 +7,9 @@ import emailjs from '@emailjs/browser';;
 
 const Contact = () => {
     const form = useRef();
-
+    useEffect(() => {
+        document.title = 'Contact Us - Video Production Company in Delhi NCR | Content Foundry';
+      }, []);
   const sendEmail = (e) => {
     e.preventDefault();
 

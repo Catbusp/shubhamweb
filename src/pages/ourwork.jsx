@@ -22,6 +22,7 @@ const Testimonial2Slider = dynamic( () => import("@components/sliders/Testimonia
 const Ourwork = (props) => {
   useEffect(() => {
     circleText();
+	document.title = 'Our Work | Leading Video Production Company in Delhi NCR';
   }, []);
 
   const clickedVideoButton = (e) => {
@@ -35,7 +36,6 @@ const Ourwork = (props) => {
 
   return (
 	<div>
-
 		<Head>
 			<title>Our Work | Leading Video Production Company in Delhi NCR</title>
 			<meta property="og:title" content="our work | leading video production company in delhi ncr" />
