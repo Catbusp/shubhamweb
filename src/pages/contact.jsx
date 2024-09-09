@@ -3,8 +3,10 @@ import Layouts from "@layouts/Layouts";
 // import Accordion from 'react-bootstrap/Accordion';
 import appData from "@data/app.json";
 import { Formik } from 'formik';
+import Head from "next/head";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import Head from "next/head";
 import { Helmet } from 'react-helmet';
 
 const Contact = () => {
@@ -52,6 +54,9 @@ const Contact = () => {
 
   return (
     <div>
+        <Head>
+            <title>Contact Us - Video Production Company in Delhi NCR | Content Foundry</title>
+        </Head>
         <Helmet>
             <meta property="og:title" content="contact us - video production company | content foundry" />
             <meta property="og:type" content="website" />

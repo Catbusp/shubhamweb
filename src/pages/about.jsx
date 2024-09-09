@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import dynamic from "next/dynamic";
 import Layouts from "@layouts/Layouts";
-
+import Head from "next/head";
 import { getSortedTeamData } from "@library/team";
 import { getSortedServicesData } from "@library/services";
 
@@ -33,6 +33,9 @@ const About = (props) => {
 
   return (
     <Layouts>
+	 <Head>
+		<title></title>
+	 </Head>
     	<PageBanner pageTitle={"About Us"} pageDesc={"Creative studio at the intersection of art, designand technology."} />
       
       	{/* Onovo About */}

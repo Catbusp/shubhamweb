@@ -6,14 +6,13 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {/* meta begin */}
-        <title>Top Video Content Creation & Production Services in Delhi NCR - Content Foundry</title>
 
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
           <meta name="google-site-verification" content="yeT3GnRFP5sMaa9Fsyl-UNvefwbhpsmHPMjQqtSdmQM" />
           <meta name="description" content="Upscale your business with premium video content creation and production services
           at Content Foundry. Our experts deliver high-quality, engaging videos to enhance your brand&#39;s presence." />
-          <meta name="title" content="Top Video Content Creation &amp; Production Services in Delhi NCR - Content Foundry"></meta>
+
           {/* meta end */}
 
           {/* favicon begin */}

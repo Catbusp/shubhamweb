@@ -2,10 +2,14 @@ import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import CFPricingBar from "../components/sections/CfPricingBar";
 import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 const Cfpricing = () => {
   return (
       <div>
+        <Head>
+            <title>Video Production Services & Cost in Delhi NCR | Content Foundry</title>
+        </Head>
         <Helmet>
           <meta property="og:title" content="video production services & cost | content foundry" />
           <meta property="og:type" content="website" />
