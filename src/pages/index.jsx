@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
-
+import Head from "next/head";
 import { getSortedPostsData } from "@library/posts";
 import { getSortedProjectsData } from "@library/projects";
 import { getSortedTeamData } from "@library/team";

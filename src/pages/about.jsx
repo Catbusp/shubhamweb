@@ -1,13 +1,11 @@
 import { useEffect } from "react";
 import dynamic from "next/dynamic";
 import Layouts from "@layouts/Layouts";
-import Head from "next/head";
 import { getSortedTeamData } from "@library/team";
 import { getSortedServicesData } from "@library/services";
-
+import Head from "next/head";
 import CountUp from 'react-countup';
 import { circleText } from "@common/utilits";
-
 import PageBanner from "@components/PageBanner";
 import Team2Section from "@components/sections/Team2"
 import PartnersSection from "@components/sections/Partners"
