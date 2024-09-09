@@ -1,12 +1,9 @@
 import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
-// import Accordion from 'react-bootstrap/Accordion';
 import appData from "@data/app.json";
-import { Formik } from 'formik';
 import Head from "next/head";
 import { useRef } from "react";
-import emailjs from '@emailjs/browser';
-import { Helmet } from 'react-helmet';
+import emailjs from '@emailjs/browser';;
 
 const Contact = () => {
     const form = useRef();
@@ -55,13 +52,11 @@ const Contact = () => {
     <div>
         <Head>
             <title>Contact Us - Video Production Company in Delhi NCR | Content Foundry</title>
-        </Head>
-        <Helmet>
             <meta property="og:title" content="contact us - video production company | content foundry" />
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.contentfoundry.in/contact " />
             <meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />
-        </Helmet>
+        </Head>
     <Layouts>
         {/* <PageBanner pageTitle={"YOU’RE HERE RIGHT ON TIME"} pageDesc={"DROP US A MESSAGE."} /> */}
 

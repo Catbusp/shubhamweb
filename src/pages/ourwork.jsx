@@ -7,13 +7,14 @@ import { getSortedServicesData } from "@library/services";
 import Head from "next/head";
 // import CountUp from 'react-countup';
 import { circleText } from "@common/utilits";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import PageBanner from "@components/PageBanner";
 // import Team2Section from "@components/sections/Team2"
 // import PartnersSection from "@components/sections/Partners"
 // import AwardsSection from "@components/sections/Awards"
 // import Services4Section from "@components/sections/Services4"
 // import Companies from "../components/sections/Companies";
+
 import WorkTiles from "../components/sections/WorkTiles";
 const HistorySlider = dynamic( () => import("@components/sliders/History"), { ssr: false } );
 const Testimonial2Slider = dynamic( () => import("@components/sliders/Testimonial2"), { ssr: false } );
@@ -34,15 +35,14 @@ const Ourwork = (props) => {
 
   return (
 	<div>
-		 <Head>
-            <title>Our Work | Leading Video Production Company in Delhi NCR</title>
-        </Head>
-		<Helmet>
+
+		<Head>
+			<title>Our Work | Leading Video Production Company in Delhi NCR</title>
 			<meta property="og:title" content="our work | leading video production company in delhi ncr" />
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://www.contentfoundry.in/ourwork" />
 			<meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />
-		</Helmet>
+		</Head>
     <Layouts>
     	{/* <PageBanner pageTitle={"We bring your boldest ideas to life"} pageDesc={""} /> */}
     	<PageBanner pageTitle={""} pageDesc={""} />
