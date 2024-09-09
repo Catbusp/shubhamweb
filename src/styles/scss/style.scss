@@ -2741,9 +2741,11 @@ a.onovo-menu-btn,
     display: inline-block;
     vertical-align: top;
     width: 50px;
-    height: 40px;
+    height: 36px;
     align-items: center;
     z-index: 2;
+	background-color: white;
+	border-radius: 8px;
 }
 
 .onovo-menu-btn span {
@@ -2921,7 +2923,7 @@ a.onovo-menu-btn,
 .onovo-menu-container {
 	position: absolute;
 	overflow: hidden;
-	overflow-y: scroll;
+	// overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 	left: 0;
 	top: 140px;
@@ -8422,7 +8424,7 @@ a.CTA_buttons_header:hover{
 	header.onovo-header.sticky.slideDown{
 		padding-bottom: 30px;
 		.onovo-menu-btn > span{
-			background-color: #fff
+			// background-color: #fff
 		}
 	}
 
@@ -8569,6 +8571,19 @@ a.CTA_buttons_header:hover{
 	}
 	.sublogo{
 		width: 15%;
+	}
+
+	body::-webkit-scrollbar {
+		width: 0.4em;
+	}
+	 
+	body::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	}
+	 
+	body::-webkit-scrollbar-thumb {
+	  background-color: #74a;
+	  outline: 1px solid slategrey;
 	}
 
 	@media screen and (max-device-width: 480px) 
