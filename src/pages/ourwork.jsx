@@ -4,7 +4,7 @@ import Layouts from "@layouts/Layouts";
 
 import { getSortedTeamData } from "@library/team";
 import { getSortedServicesData } from "@library/services";
-
+import Head from "next/head";
 // import CountUp from 'react-countup';
 import { circleText } from "@common/utilits";
 import { Helmet } from "react-helmet";
