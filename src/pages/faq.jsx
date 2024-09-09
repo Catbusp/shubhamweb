@@ -34,7 +34,6 @@ const FAQ = () => {
       {/* Onovo Faq */}
 			<section className="onovo-section gap-top-140 gap-bottom-140">
 				<div className="container">
-
           {/* Faq items */}
           <Accordion>
           <div className="onovo-faq-items">
