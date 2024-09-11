@@ -41,6 +41,9 @@ const Ourwork = (props) => {
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://www.contentfoundry.in/ourwork" />
 			<meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />
+			<link rel="canonical" href="https://www.contentfoundry.in/ourwork" />
+			<meta name="description" content="Explore our portfolio showcasing creative excellence in video production, digital storytelling, 
+			and corporate branding in Delhi NCR. At Content Foundry, we elevate brands with visually compelling content." />
 		</Head>
     <Layouts>
     	{/* <PageBanner pageTitle={"We bring your boldest ideas to life"} pageDesc={""} /> */}

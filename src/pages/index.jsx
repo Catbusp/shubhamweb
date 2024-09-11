@@ -46,6 +46,9 @@ const Home1 = (props) => {
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.contentfoundry.in/" />
           <meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />
+          <link rel="canonical" href="https://www.contentfoundry.in/" />
+          <meta name="description" content="Upscale your business with premium video content creation and production services
+          at Content Foundry. Our experts deliver high-quality, engaging videos to enhance your brand&#39;s presence." />
         </Head>
         <HeroSection />
         <AboutSection/>

@@ -17,6 +17,9 @@ const Cfpricing = () => {
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.contentfoundry.in/cfpricing  " />
             <meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />
+            <link rel="canonical" href="https://www.contentfoundry.in/cfpricing" />
+            <meta name="description" content=":  Discover the top-tier video production services in Delhi NCR and their associated costs. 
+            Elevate your brand with expertly crafted corporate videos at the in-house studio of Content Foundry. Check out pricing and services today!" />
         </Head>
 
     <Layouts contactButton cartButton>

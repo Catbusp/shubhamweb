@@ -33,6 +33,7 @@ const About = (props) => {
     <Layouts>
 	 <Head>
 		<title>About Us - Video Production Company in Delhi NCR | Content Foundry</title>
+		
 	 </Head>
     	<PageBanner pageTitle={"About Us"} pageDesc={"Creative studio at the intersection of art, designand technology."} />
       

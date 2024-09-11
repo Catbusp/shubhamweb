@@ -64,6 +64,8 @@ const Contact = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.contentfoundry.in/contact " />
         <meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />
+        <link rel="canonical" href="https://www.contentfoundry.in/contact" />
+        <meta name="description" content="Ready to get started? Drop us your details, and our video production team in Delhi NCR will be in touch with you at the earliest." />
       </Head>
       <Layouts>
         <PageBanner pageTitle={""} pageDesc={""} />
