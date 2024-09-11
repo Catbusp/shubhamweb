@@ -83,7 +83,7 @@ const AboutSection = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
               <div className="text-capitalize">
                 <div className="onovo-subtitle-1 styletext">
-                  <span>{Data.subtitle}</span>
+                  <h1 className="Abouth1">{Data.subtitle}</h1>
                 </div>
                 <h2 className="onovo-title-2 white-head">
                   <span dangerouslySetInnerHTML={{ __html: Data.title }} />
