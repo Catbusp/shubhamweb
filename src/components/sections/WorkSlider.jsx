@@ -36,13 +36,12 @@ const WorkSlider = () => {
             <div className="scroller" data-direction="left" data-speed="slow">
               <a href='/ourwork'>
                   <div className="scroller__inner hover_filter2 workslider">
-                      <img src="/images/work/3d.png" alt="" />
-                      <img src="/images/work/audio.png" alt="" />
-                      <img src="/images/work/Corporatefilms.png" alt="" />
-                      <img src="/images/work/Educational.png" alt="" />
-                      <img src="/images/work/Frame.png" alt="" />
-                      <img src="/images/work/technologo.png" alt="" />
-                      <img src="/images/work/social_media.png" alt="" />
+                       <img style={{height: "450px",width: "100%"}} src="/images/work/audio.png" alt="" />
+                      <img style={{height: "450px",width: "100%"}} src="/images/work/Corporatefilms.png" alt="" />
+                      <img style={{height: "450px",width: "100%"}} src="/images/work/Educational.png" alt="" />
+                      <img style={{height: "450px",width: "100%"}} src="/images/work/Frame.png" alt="" />
+                      <img style={{height: "450px",width: "100%"}} src="/images/work/technologo.png" alt="" />
+                      <img style={{height: "450px",width: "100%"}} src="/images/work/social_media.png" alt="" />
                   </div>
                 </a>
             </div>
