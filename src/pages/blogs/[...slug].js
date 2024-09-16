@@ -16,5 +16,5 @@ export async function getServerSideProps(context) {
 export default function CustomSlugPage({ slug }) {
   return (
     <></>
-  );
+  ); 
 }
