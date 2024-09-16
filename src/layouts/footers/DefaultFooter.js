@@ -28,7 +28,7 @@ const DefaultFooter = () => {
                                         <h5 className="text-white border-text"> Get a Quote</h5>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-10">
-                                        <h5 className="text-white">+91 98113 46401</h5>
+                                        <h5 className="text-white">+91 97735 00316</h5>
                                     </div>
                                 </div>
                             </div>
