@@ -157,7 +157,7 @@ const Contact = () => {
                         className="onovo-lnk lnk--white"
                         target="_blank"
                       >
-                        +91 98113 46401
+                        +91 97735 00316
                       </a>
                       <br />
                       <a

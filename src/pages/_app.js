@@ -21,6 +21,8 @@ function MyApp({ Component, pageProps }) {
           <meta name="author" content="bslthemes" />
           {/* seo end */}     
           <title>Top Video Content Creation & Production Services in Delhi NCR - Content Foundry</title>
+          <meta name="description" content="Upscale your business with premium video content creation and production services
+          at Content Foundry. Our experts deliver high-quality, engaging videos to enhance your brand&#39;s presence." />
              
       </Head>
       
