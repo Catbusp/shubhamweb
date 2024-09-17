@@ -36,7 +36,7 @@ const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial
 const Home1 = (props) => {
   useEffect(() => {
     circleText();
-  }, []);
+  }, []); 
 
   return (
     <Layouts>
