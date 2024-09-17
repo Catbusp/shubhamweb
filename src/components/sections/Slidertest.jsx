@@ -40,7 +40,6 @@ const Slidertest = () => {
                     <img src="/images/whiteicons/Hmd.png" alt="HMD" />
                     <img src="/images/whiteicons/JCB.png" alt="JCB" />
                     <img src="/images/whiteicons/babysaffron.png" alt="BabySaffron" />
-                    <img src="/images/whiteicons/Luxebook.png" alt="Luxebook" />
                     <img src="/images/whiteicons/Vector.png" alt="Techno" />
                     <img src="/images/whiteicons/Vector-1.png" alt="Incredible India" />
                     <img src="/images/whiteicons/Vector-2.png" alt="Safari" />
