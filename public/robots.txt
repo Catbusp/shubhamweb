@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://contentfoundry.in/sitemap.xml
