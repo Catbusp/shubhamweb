@@ -2587,6 +2587,16 @@ a.onovo-menu-btn,
   background: #fff;
 }
 
+.header--white .slideDown .onovo-menu-btn span::before,
+.header--white .slideDown .onovo-menu-btn span::after,
+.header--active .slideDown .onovo-menu-btn span::before,
+.header--active .slideDown .onovo-menu-btn span::after{
+
+  background: #fff;
+}
+
+
+
 .header--active .onovo-menu-btn span::before,
 .header--active .onovo-menu-btn span::after {
   transition-delay: 0.6s;
@@ -7895,3 +7905,5 @@ body div.wpforms-container .wpforms-form button.onovo-btn[type=submit],
 }
 
 /* --options end */
+
+

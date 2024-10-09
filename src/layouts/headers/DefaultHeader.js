@@ -69,7 +69,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
   return (
     <>
       {/* Header */}
-      <header className={darkHeader ? "onovo-header" : "onovo-header header--white"}>
+      <header className={darkHeader ? "onovo-header" : "onovo-header header--white"} id="header1">
         <div className="header--builder">
           <div className="container-fluid customHeader">
             <div className="row">

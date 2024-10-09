@@ -1,7 +1,7 @@
 import Data from "@data/sections/pricing.json";
 import Data2 from "@data/sections/animation.json";
 import Link from "next/link";
-import Tick from '../../../public/images/packtick.png'
+// import Tick from '../../../public/images/packtick.png'
 
 const CFPricingBar = ( { bg, hiddenHeading } ) => {
     return (
@@ -215,8 +215,8 @@ const CFPricingBar = ( { bg, hiddenHeading } ) => {
                   </div>
                   <div className="col-lg-2 col-sm-10">
                         <h4>Pro</h4>
-                        <p><span className="cost">₹1,50,000</span> / mon</p>
-                        <p id="duration">1 month / 10 minutes of content 2 Days / Full Shift</p>
+                        <p><span className="cost">₹1,70,000</span> / mon</p>
+                        <p id="duration">1 month / 15 minutes of content 4 Days / Full Shift</p>
                         <a className="CTA_buttons_m" href="#">Purchase</a>
 
                         <div className="packspacer"></div>
@@ -250,10 +250,10 @@ const CFPricingBar = ( { bg, hiddenHeading } ) => {
                               <p className="feature_item2">✔</p>
                         </div>
                   </div>
-                  <div className="col-lg-2 col-sm-10">
+                  <div className="col-lg-2 col-sm-10 bgdark">
                         <h4>Advance</h4>
-                        <p><span className="cost">₹1,50,000</span> / mon</p>
-                        <p id="duration">1 month / 10 minutes of content 2 Days / Full Shift</p>
+                        <p><span className="cost">₹2,50,000</span> / mon</p>
+                        <p id="duration">1 month / 20 minutes of content 8 Days / Full Shift</p>
                         <a className="CTA_buttons_m" href="#">Purchase</a>
 
                         <div className="packspacer"></div>

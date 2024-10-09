@@ -1,0 +1,30 @@
+[33mcommit cd63af25d15d4cf885a08d71f8c5d322eabdac0d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Rahul chauhan <rahulchauhah50@gmail.com>
+Date:   Wed Oct 9 16:44:23 2024 +0530
+
+    Remove large video file from the repository
+
+[33mcommit 4abfea4ce9ef72a7c1bcc4c9bafcaff0073b3455[m
+Author: Rahul chauhan <rahulchauhah50@gmail.com>
+Date:   Wed Oct 9 16:35:09 2024 +0530
+
+    hero section showreel update
+
+[33mcommit ee8abe4ef672bd59badb88ae90113d793cade7d4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 16147f9 3213380
+Author: Rahul chauhan <rahulchauhah50@gmail.com>
+Date:   Tue Sep 24 12:30:34 2024 +0530
+
+    og tag
+
+[33mcommit 16147f9da169f00c0e8760191c8800fe2422b780[m
+Author: Rahul chauhan <rahulchauhah50@gmail.com>
+Date:   Tue Sep 24 12:17:08 2024 +0530
+
+    og tag
+
+[33mcommit 3213380968f93edd6f8b625fe0e2e5290c0cf529[m
+Author: Catbusp <web.developer@infinityadvt.com>
+Date:   Tue Sep 17 12:43:19 2024 +0530
+
+    Update _app.js

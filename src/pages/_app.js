@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
         "@type": "ListItem",
         "position": 3,
         "name": "pricing",
-        "item": "https://www.contentfoundry.in/cfpricing"
+        "item": "https://www.contentfoundry.in/pricing"
       },
       {
         "@type": "ListItem",
@@ -64,6 +64,24 @@ function MyApp({ Component, pageProps }) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="HandheldFriendly" content="true" />
           <meta name="author" content="bslthemes" />
+
+
+          {/* Facebook Meta Tags */}
+          <meta property="og:url" content="https://www.contentfoundry.in/"/>
+          <meta property="og:type" content="website"/>
+          <meta property="og:title" content="Top video content creation & production services in delhi ncr - content foundry"/>
+          <meta property="og:description" content="Upscale your business with premium video content creation and production services at Content Foundry. Our experts deliver high-quality, engaging videos to enhance your brand's presence."/>
+          <meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png"/>
+
+          {/* Twitter Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta property="twitter:domain" content="contentfoundry.in"/>
+          <meta property="twitter:url" content="https://www.contentfoundry.in/"/>
+          <meta name="twitter:title" content="Top video content creation & production services in delhi ncr - content foundry"/>
+          <meta name="twitter:description" content="Upscale your business with premium video content creation and production services at Content Foundry. Our experts deliver high-quality, engaging videos to enhance your brand's presence."/>
+          <meta name="twitter:image" content="https://www.contentfoundry.in/images/logo-main.png"/>
+
+          
           {/* seo end */}     
           <title>Top Video Content Creation & Production Services in Delhi NCR - Content Foundry</title>
           <meta name="description" content="Upscale your business with premium video content creation and production services

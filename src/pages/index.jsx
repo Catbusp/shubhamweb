@@ -49,6 +49,7 @@ const Home1 = (props) => {
           <link rel="canonical" href="https://www.contentfoundry.in/" />
          
         </Head>
+        
         <HeroSection />
         <AboutSection/>
         <FocusText/>

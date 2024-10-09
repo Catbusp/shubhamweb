@@ -1,20 +1,31 @@
-/*
-Template Name: Onovo
-Template URI: https://bslthemes.com/
-Author: bslthemes
-Author URI: https://themeforest.net/user/bslthemes
-Description: Onovo - Creative Portfolio Agency HTML5 Template
-Version: 1.0
-*/
 
-/* MAIN */
-
-/* ---
-	1. Global
----*/
 .customHeader{
 	width:85% ;
 }
+
+.ytp-chrome-top,.ytp-show-cards-title{
+	display: none !important;
+}
+
+#heroVideo{
+	cursor: url(../../../public/images/wpf_speaker.png) 92 92, auto;
+	
+  }
+
+  #fullvideo{
+	cursor: pointer;
+	margin-top: 0px;
+  }
+
+  #fullscreen{
+	position: fixed;
+	z-index: 1000;
+  }
+
+  .dnone{
+	display: none;
+  }
+
 * {
 	outline: none;
 	box-sizing: border-box;
@@ -206,6 +217,8 @@ background-color: #000000;
 	color: #fff;
 	margin-top: 20%;
 }
+
+
 
 .white-head{
     color: #fff !important;
