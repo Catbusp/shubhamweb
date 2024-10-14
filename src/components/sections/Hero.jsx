@@ -236,7 +236,7 @@ const HeroSection = () => {
 				</div>
 				<div className="image fullvid" onClick={handleFullScreen}>
 					<video autoPlay muted={!mute} loop playsInline id="heroVideo" >
-						<source src='https://videos.pexels.com/video-files/28854340/12496201_1920_1080_60fps.mp4' type="video/mp4" />
+						<source src={Data.video} type="video/mp4" />
 					</video>
 					
 					<button onClick={handleclose} id="exitButton" class="exit-button dnone">✖</button>

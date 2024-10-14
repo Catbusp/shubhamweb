@@ -22,7 +22,7 @@ const Contact = () => {
         publicKey: 'Bh_9DyMEo8DkVXycy',
       })
       .then(
-        () => {
+        () => { 
           setIsLoading(false); // Hide loader on success
           console.log('SUCCESS!');
         },
