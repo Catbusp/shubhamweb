@@ -136,7 +136,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                       <span />
                     </i>
                   </Link> */}
-                  {/* <a className="CTA_buttons_header" href="/contact">Contact Us</a> */}
+                  <a className="CTA_buttons_header" href="/contact">Contact Us</a>
                   {/* <a className="CTA_buttons_header" href="#">Know More</a> */}
                 
                  {/* Menu Hamburger */}
