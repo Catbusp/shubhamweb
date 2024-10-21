@@ -2956,7 +2956,7 @@ slideUp sticky
 }
 
 .onovo-menu-container .container {
-	margin: auto;
+	// margin: auto;
 }
 
 .onovo-menu {
@@ -3156,6 +3156,7 @@ slideUp sticky
 	.onovo-menu {
 		padding-left: 40px;
 	}
+
 	.onovo-menu ul li {
 		margin: 20px 0;
 		font-size: 38px;
@@ -7883,7 +7884,7 @@ h6,
 	}
 }
 .workslider>img{
-	width: 400px;
+	// width: 400px;
 }
 ////**Custom css**/////
 /// 
@@ -8392,11 +8393,11 @@ a.CTA_buttons_header:hover{
 	}
 
 	.react-typewriter-text{
-		font-size: 45px;
+		font-size: 57px;
 		background: -webkit-linear-gradient(#E40494, #AD08CC);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		margin-left: 10px !important;
+		margin-left: 10px !important
 	}
 	// .react-typewriter-text{
 	// 	margin
@@ -8602,8 +8603,16 @@ a.CTA_buttons_header:hover{
 		padding-left: 15%;
 	}
 	.sublogo{
-		width: 15%;
+		// width: 200px;
+		height: 38px;
 	}
+	.Saygoodbye{
+		font-size: 57px;
+		font-weight: 600;
+		line-height: 69px;
+		display: flex;
+
+	}	
 
 	body::-webkit-scrollbar {
 		width: 0.4em;
@@ -8621,12 +8630,102 @@ a.CTA_buttons_header:hover{
 	.Abouth1{
 		font-size: 16px;
 	}
+	.text-center{
+		text-align: left;
+		
+	}
+	.h450{
+		height: 450px;
+		width: 100%;
+		
+	}
+	.disflex{
+		display: flex;
+		flex-direction: row;
+	}
 
 	@media screen and (max-device-width: 480px) 
     and (orientation: portrait) {
+		.mt30{
+			margin-top: 50px;
+		}
+		.mt60{
+			margin-top: 100px;
+		}
+		.fontsizeport{
+			font-size: 34px;
+			line-height: 55px;
+		}
+
+
+		.padding-20{
+			padding-left: 20px;
+			padding-top: 30px;
+		}
+#fullscreen{
+	height: 100vh;
+	background-color: black;
+	display: flex;
+	position: absolute;
+	top: 0px;
+	align-items: center;
+}
+		.disflex{
+			justify-content: space-between;
+		}
+		.myheade a{
+			font-size: 40px;
+		}
+		.w200{
+			width: 100px;
+		}
+		.onovo-menu-container {
+			align-items: start;
+		}
+		.connectback{
+			background-image: none
+		}
+		.h450{
+			height: 250px;
+			width: 100%;
+
+		}
 		.sublogo{
-			width: 35%;
+			height: 18px;
+    width: auto;
+		}
+		.Saygoodbye{
+			font-size: 34px;
+			font-weight: 600;
+			line-height: 43px;
+			flex-direction: column;
 		}	
+		.justify-center{
+			justify-content: center;
+			display: flex;
+		}
+		.textcenter{
+			text-align: center;
+			font-size: 14px;
+		}
+		.buttonCenter{
+			// justify-content: center;
+			display: flex;
+			flex-direction: column;
+		}
+		.buutonmy{
+			margin: auto;
+		}
+		.slideicons>img{
+			height: 20px;
+			
+			margin: 50px 50px;
+		}
+		.Abouth1{
+			text-align: center;
+			font-size: 14px;
+			font-weight: 500;
+		}
 		.text_stats{
 			font-size: 70px;
 		}
@@ -8639,7 +8738,7 @@ a.CTA_buttons_header:hover{
 			padding: 20px 10px 0px 10px;
 		}
 		.footer-logo{
-			width:30%;
+			width:140px;
 			margin-bottom: 20px;
 			margin-top: 20px;
 		}
@@ -8674,7 +8773,7 @@ a.CTA_buttons_header:hover{
 			// padding: 25px 10px 60px 10px;
 		}
 		.white-head{
-			width: 70%;
+			width: 240px;
 		}
 		.white-head+p{
 			font-size:16px
@@ -8692,7 +8791,7 @@ a.CTA_buttons_header:hover{
 			margin-top: -10%;
 		}
 		#heroVideo{
-			margin-top: 60%;
+			margin-top: 85%;
 			width: 100%;
   			height: 260px;
 		}
@@ -8727,7 +8826,9 @@ a.CTA_buttons_header:hover{
 			font-size: 20px;
 		}
 		.react-typewriter-text{
-			font-size: 20px;
+			font-size: 34px;
+			margin-left: 0px !important;
+			margin-top: 10px;
 		}
 		.headercta{
 			margin-top: -40px;
@@ -8799,14 +8900,14 @@ a.CTA_buttons_header:hover{
 			display: none !important; 
 		}
 		.windowpeek{
-			font-size: 16px;
+			font-size: 25px;
 		}
 		.onovo-hero{
 			height: 45vh;
 		}
 		.about-cf{
 			// margin-top: 135px;
-			padding-top: 130px;
+			padding-top: 180px;
 			padding-bottom: 60px
 		}
 		.team_member>div>div>p:nth-child(3){

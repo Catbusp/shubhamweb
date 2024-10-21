@@ -36,12 +36,12 @@ const WorkSlider = () => {
             <div className="scroller" data-direction="left" data-speed="slow">
               <a href='/ourwork'>
                   <div className="scroller__inner hover_filter2 workslider">
-                       <img style={{height: "450px",width: "100%"}} src="/images/work/audio.png" alt="Uno media Multimedia System" />
-                      <img style={{height: "450px",width: "100%"}} src="/images/work/Corporatefilms.png" alt="Gem and Jewellary Export Council" />
-                      <img style={{height: "450px",width: "100%"}} src="/images/work/Educational.png" alt="stopper" />
-                      <img style={{height: "450px",width: "100%"}} src="/images/work/Frame.png" alt="tecno" />
-                      <img style={{height: "450px",width: "100%"}} src="/images/work/technologo.png" alt="tecno logo" />
-                      <img style={{height: "450px",width: "100%"}} src="/images/work/social_media.png" alt="Uno Minda multi media
+                       <img  className='h450' src="/images/work/audio.png" alt="Uno media Multimedia System" />
+                      <img  className='h450' src="/images/work/Corporatefilms.png" alt="Gem and Jewellary Export Council" />
+                      <img  className='h450' src="/images/work/Educational.png" alt="stopper" />
+                      <img  className='h450' src="/images/work/Frame.png" alt="tecno" />
+                      <img  className='h450' src="/images/work/technologo.png" alt="tecno logo" />
+                      <img  className='h450' src="/images/work/social_media.png" alt="Uno Minda multi media
 system" />
                   </div>
                 </a>

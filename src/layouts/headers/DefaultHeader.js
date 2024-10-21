@@ -44,7 +44,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
 
   }
   appData.header.menu.forEach((item, index) => {
-    let s_class1 = 'dropdown-link';
+    let s_class1 = 'dropdown-link myheade';
 
     if ( item.children != 0 ) {
       s_class1 += 'menu-item-has-children';
@@ -65,6 +65,10 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
   useEffect(() => {
     headerSticky();
   }, []);
+
+  const closeMenu = () => {
+    document.getElementById('closethebtn').click();
+  }
 
   return (
     <>
@@ -100,7 +104,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                         <ul className="onovo-menu-nav">
                           {navItems.map((item, key) => (
                           <li key={`header-nav-item-${key}`} className={item.classes}>
-                            <Link className={item.children ? "onovo-lnk lnk--active onovo-dropdown-toggle" : "onovo-lnk lnk--active"} onClick={item.children != 0 ? (e) => clickedMobileMenuItemParent(e) : ""} href={item.link}>{item.label}</Link>
+                            <Link className={item.children ? "onovo-lnk lnk--active onovo-dropdown-toggle" : "onovo-lnk lnk--active"} onClick={()=>{closeMenu()}} href={item.link}>{item.label}</Link>
                             {item.children != 0 &&
                             <i className="icon fas fa-chevron-down" />
                             }
@@ -132,12 +136,12 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                       <span />
                     </i>
                   </Link> */}
-                  <a className="CTA_buttons_header" href="/contact">Contact Us</a>
+                  {/* <a className="CTA_buttons_header" href="/contact">Contact Us</a> */}
                   {/* <a className="CTA_buttons_header" href="#">Know More</a> */}
                 
                  {/* Menu Hamburger */}
                  {/* <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }><span /><span /></a> */}
-                  <a href="#" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }>
+                  <a href="#" id="closethebtn" className={desktopMenu ? "onovo-menu-btn btn--active" : "onovo-menu-btn"} onClick={ (e) => clickedDesktopMenu(e) }>
                       <span style={{height:'2px'}}></span>
                       <span style={{height:'2px'}}></span>
                       <span style={{height:'2px'}}></span>

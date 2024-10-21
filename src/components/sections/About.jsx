@@ -80,25 +80,27 @@ const AboutSection = () => {
       <section className="onovo-section about-cf gap-top-70" id='aboutcf'>
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7 buttonCenter">
               <div className="text-capitalize">
                 <div className="onovo-subtitle-1 styletext">
                   <h1 className="Abouth1">{Data.subtitle}</h1>
                 </div>
-                <h2 className="onovo-title-2 white-head">
+              <div className="justify-center">
+              <h2 className="onovo-title-2 white-head">
                   <span dangerouslySetInnerHTML={{ __html: Data.title }} />
                 </h2>
+              </div>
               </div>
 
               <div className="row">
                 {Data.items.map((item, key) => (
                   <div key={`about-item-${key}`} className="col-xs-12 col-sm-12 col-md-11 col-lg-11">
                     <h5 className="text-uppercase white-head">{item.title}</h5>
-                    <p dangerouslySetInnerHTML={{ __html: item.text }} />
+                    <p className="textcenter" dangerouslySetInnerHTML={{ __html: item.text }} />
                   </div>
                 ))}
               </div>
-              <a className="CTA_buttons" href="#">Let's Connect</a>
+              <Link className="CTA_buttons buutonmy" href="/contact">Let's Connect</Link>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 side_about_img">
               {/* <img src={Side_about.src} className='w-100' alt="" /> */}

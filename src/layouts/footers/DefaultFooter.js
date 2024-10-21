@@ -15,7 +15,7 @@ const DefaultFooter = () => {
         {/* Footer */}
         <footer className="onovo-footer footer--dark pt-3">
             <div className="footer--default">
-                    <div className="row connectback">
+                    <div className=" connectback">
                         <div className="footer-container">
                             <div className="connect m-auto">
                                 <p>Discuss over a coffee?</p>
@@ -25,7 +25,7 @@ const DefaultFooter = () => {
                                         <h5 className="text-white"> info@contentfoundry.in </h5>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-10">
-                                        <h5 className="text-white border-text"> Get a Quote</h5>
+                                        <Link href='/contact' className="text-white border-text"> Get a Quote</Link>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-10">
                                         <h5 className="text-white">+91 97735 00316</h5>
@@ -38,7 +38,7 @@ const DefaultFooter = () => {
 
 
                 <div className="footer-container">
-                    <div className="row">
+                    <div className="disflex">
                         <div className="col-xs-6 col-sm-6 col-md-6 col-lg-10">
                             <div className="onovo-text onovo-text-white">
                                 {/* <h5>Information</h5> */}
@@ -59,15 +59,15 @@ const DefaultFooter = () => {
                         </div> */}
 
                         <div className="col-xs-6 col-sm-6 col-md-12 col-lg-2 pl-4">
-                            <div className="row">
+                            <div className="">
                                 <div className="onovo-text onovo-text-white policies">
                                     {/* <h5>Get in Touch</h5> */}
-                                    <p style={{"opacity": "0.6"}}>Privacy Policy</p>
-                                    <p style={{"opacity": "0.6"}}>
-                                        <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">Terms Of Use</a><br />
+                                    <p className="w200" style={{"opacity": "0.6"}}>Privacy Policy</p>
+                                    <p className="w200" style={{"opacity": "0.6"}}>
+                                        <a className="onovo-lnk lnk--white" target="_blank">Terms Of Use</a><br />
                                     </p>
-                                    <p style={{"opacity": "0.6"}}>
-                                        <a href="mailto:info@contentfoundry.in" className="onovo-lnk lnk--white" target="_blank">Legal</a>
+                                    <p className="w200" style={{"opacity": "0.6"}}>
+                                        <a className="onovo-lnk lnk--white" target="_blank">Legal</a>
                                     </p>
                                     
                                 </div>

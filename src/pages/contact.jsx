@@ -75,7 +75,7 @@ const Contact = () => {
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
                 {/* Heading */}
-                <div className="onovo-text gap-bottom-40">
+                <div className="onovo-text gap-bottom-40 mt30">
                   <h4>Planned to Discuss Your Business With Us?</h4>
                   Step In And Share Your Details
                 </div>

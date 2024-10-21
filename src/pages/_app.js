@@ -69,23 +69,22 @@ function MyApp({ Component, pageProps }) {
           {/* Facebook Meta Tags */}
           <meta property="og:url" content="https://www.contentfoundry.in/"/>
           <meta property="og:type" content="website"/>
-          <meta property="og:title" content="Top video content creation & production services in delhi ncr - content foundry"/>
-          <meta property="og:description" content="Upscale your business with premium video content creation and production services at Content Foundry. Our experts deliver high-quality, engaging videos to enhance your brand's presence."/>
+          <meta property="og:title" content="Best Video Production Services in Delhi NCR - Content Foundry"/>
+          <meta property="og:description" content="Get the best video production services in Delhi NCR with Content Foundry. We create engaging, high-quality videos to boost your brand's presence."/>
           <meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png"/>
 
           {/* Twitter Meta Tags */}
           <meta name="twitter:card" content="summary_large_image"/>
           <meta property="twitter:domain" content="contentfoundry.in"/>
           <meta property="twitter:url" content="https://www.contentfoundry.in/"/>
-          <meta name="twitter:title" content="Top video content creation & production services in delhi ncr - content foundry"/>
-          <meta name="twitter:description" content="Upscale your business with premium video content creation and production services at Content Foundry. Our experts deliver high-quality, engaging videos to enhance your brand's presence."/>
+          <meta name="twitter:title" content="Best Video Production Services in Delhi NCR - Content Foundry"/>
+          <meta name="twitter:description" content="Get the best video production services in Delhi NCR with Content Foundry. We create engaging, high-quality videos to boost your brand's presence."/>
           <meta name="twitter:image" content="https://www.contentfoundry.in/images/logo-main.png"/>
 
           
           {/* seo end */}     
-          <title>Top Video Content Creation & Production Services in Delhi NCR - Content Foundry</title>
-          <meta name="description" content="Upscale your business with premium video content creation and production services
-          at Content Foundry. Our experts deliver high-quality, engaging videos to enhance your brand&#39;s presence." />
+          <title>Best Video Production Services in Delhi NCR - Content Foundry</title>
+          <meta name="description" content="Get the best video production services in Delhi NCR with Content Foundry. We create engaging, high-quality videos to boost your brand's presence." />
           <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

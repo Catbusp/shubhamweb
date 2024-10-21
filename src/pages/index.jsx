@@ -42,7 +42,7 @@ const Home1 = (props) => {
     <Layouts>
       <>
         <Head>
-          <meta property="og:title" content="Top video content creation & production services in delhi ncr - content foundry" />
+          <meta property="og:title" content="Best Video Production Services in Delhi NCR - Content Foundry" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.contentfoundry.in/" />
           <meta property="og:image" content="https://www.contentfoundry.in/images/logo-main.png" />

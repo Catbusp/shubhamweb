@@ -21,14 +21,24 @@ const Slidertest = () => {
             // For each item in the array, clone it
             // add aria-hidden to it
             // add it into the `.scroller-inner`
-            scrollerContent.forEach((item) => {
-              const duplicatedItem = item.cloneNode(true);
-              duplicatedItem.setAttribute("aria-hidden", true);
-              scrollerInner.appendChild(duplicatedItem);
-            });
+            // scrollerContent.forEach((item) => {
+            //   const duplicatedItem = item.cloneNode(true);
+            //   duplicatedItem.setAttribute("aria-hidden", true);
+            //   scrollerInner.appendChild(duplicatedItem);
+            // });
           });
         }
       }, []);
+
+      const Technoc = '/images/whiteicons/Vector.png'
+      const IncrediableIndiaC = '/images/whiteicons/Vector-1.png'
+      const SafariC = '/images/whiteicons/Vector-2.png'
+      const UnoC = '/images/whiteicons/Vector-3.png'
+      const Gpec = '/images/whiteicons/Vector-4.png'
+      const HmdC = '/images/whiteicons/Hmd.png'
+      const JcbC = '/images/whiteicons/JCB.png'
+      const BabySC = '/images/whiteicons/babysaffron.png'
+      const cocaC = '/images/whiteicons/Cocacola_logo.png'
 
     return (
       <>
@@ -36,23 +46,23 @@ const Slidertest = () => {
 		<section className="onovo-section">
             <div className="scroller" data-direction="left" data-speed="slow">
                 <div className="scroller__inner hover_filter top_slider slideicons">
-                    <img src="/images/whiteicons/ACE-Logo.png" alt="ACE" />
-                    <img src="/images/whiteicons/Hmd.png" alt="HMD" />
-                    <img src="/images/whiteicons/JCB.png" alt="JCB" />
-                    <img src="/images/whiteicons/babysaffron.png" alt="BabySaffron" />
-                    <img src="/images/whiteicons/Vector.png" alt="Techno" />
-                    <img src="/images/whiteicons/Vector-1.png" alt="Incredible India" />
-                    <img src="/images/whiteicons/Vector-2.png" alt="Safari" />
-                    <img src="/images/whiteicons/Vector-3.png" alt="Uno Minda" />
-                    <img src="/images/whiteicons/Vector-4.png" alt="GJEPC" />
-                    <img src="/images/whiteicons/Vector-5.png" alt="Ministry of Ayush" />
+                    <img src='/images/whiteicons/ACE-Logo.png' alt="ACE" />
+                    <img src={HmdC} alt="HMD" />
+                    <img src={JcbC} alt="JCB" />
+                    <img src={BabySC} alt="BabySaffron" />
+                    <img src={Technoc} alt="Techno" />
+                    <img src={IncrediableIndiaC} alt="Incredible India" />
+                    <img src={SafariC} alt="Safari" />
+                    <img src={UnoC} alt="Uno Minda" />
+                    <img src={Gpec} alt="GJEPC" />
+                    <img src={cocaC} alt="Ministry of Ayush" />
                     <img src="/images/whiteicons/Vector-6.png" alt="Council of Architecture" />
-                    <img src="/images/whiteicons/Cocacola_logo.png" alt="Coca Cola" />
+                    {/* <img src="/images/whiteicons/Cocacola_logo.png" alt="Coca Cola" /> */}
                 </div>
             </div>
 		</section>
       </>
-    );
+    )
 };
 
 export default Slidertest;

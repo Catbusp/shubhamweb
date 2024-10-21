@@ -121,8 +121,8 @@ const HeroSection = () => {
 							{/* <h6 style={}>Content Foundry</h6> */}
 							<img src={subLogo.src} className="sublogo" alt="" />
 							<br />
-							<h3 className="text-black">
-								<span className="d-flex goodbye"> Say goodbye to
+							<p className="text-black Saygoodbye">
+								<span className="d-flex goodbye"> Say goodbye to</span>
 									<TypeWriterEffect
 										startDelay={1000}
 										cursorColor="black"
@@ -187,8 +187,8 @@ const HeroSection = () => {
 										]}
 										multiTextDelay={1000}
 										typeSpeed={150}
-									/></span>
-							</h3>
+									/>
+							</p>
 						</div>
 						{/* <div className="col-lg-4 col-sm-6">
 							<TypeWriterEffect
@@ -234,7 +234,7 @@ const HeroSection = () => {
 						</div>	 */}
 					</div>
 				</div>
-				<div className="image fullvid" onClick={handleFullScreen}>
+				<div className="image fullvid" onClick={window.innerWidth<= 480? null:handleFullScreen}>
 					<video autoPlay muted={!mute} loop playsInline id="heroVideo" >
 						<source src={Data.video} type="video/mp4" />
 					</video>

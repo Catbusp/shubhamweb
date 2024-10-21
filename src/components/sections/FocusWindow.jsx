@@ -15,7 +15,7 @@ export default function FocusWindow() {
   return (
     <div className="focuswindow2 mt-5">
         <h2 className="onovo-title-2 text-capitalize text-center">
-            <span>Where You Need us</span>
+            <span>We Step in Where You Need us</span>
 				</h2>
     <Slider {...settings} className="windowtext">
       <div className="text-center">
