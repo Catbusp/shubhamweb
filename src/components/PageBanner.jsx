@@ -13,9 +13,9 @@ const PageBanner = ({ pageTitle, pageDesc }) => {
         <title>{headTitle}</title>
       </Head>
       {/* Onovo Intro */}
-			<section className="onovo-section showcasework intro--white mt60">
-				<div className="container">
-					<h1 className="onovo-title-2 cf-heading">
+			<section className="onovo-section headshowcase intro--white mt60">
+				<div className="container onovo-hero-carousel-wrap">
+					<h1 className=" cf-heading">
 						<span>{pageTitle}</span>
 						<span className="onovo-sep word">
 							<i className="sep-img" style={{"backgroundImage": "url(/images/title_icon.svg)"}} />

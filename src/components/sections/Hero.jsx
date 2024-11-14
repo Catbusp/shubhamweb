@@ -99,6 +99,7 @@ const HeroSection = () => {
 
 	};
 
+
 	const [mute, setMute] = useState(false);
 
 	const clickedMuteHeroVideo = (e) => {

@@ -6,10 +6,17 @@
 .ytp-chrome-top,.ytp-show-cards-title{
 	display: none !important;
 }
-
+.bgdark{
+	background-color: black !important;
+    color: white !important;
+}
 #heroVideo{
 	cursor: url(../../../public/images/wpf_speaker.png) 92 92, auto;
 	
+  }
+  .styleheadingprice{
+	font-size: 24px;
+	font-weight: 600;
   }
 
   #fullvideo{
@@ -719,8 +726,10 @@ body .onovo-text-black a {
 
 p {
 	padding: 0;
-	margin: 20px 0;
+	// margin: 20px 0;
 }
+
+
 
 strong {
 	font-weight: 700;
@@ -8290,15 +8299,20 @@ transition: 0.4s;
 
   .cf-heading{
 	color: black;
-	font-size: 22px;
-	width: 48%;
-	margin-bottom: 4%;
+	font-size: 54px;
+	line-height: 57px;
+	// width: 48%;
+	// margin-bottom: 4%;
   }
 
 .showcasework{
 	// padding-top: 11%;
 	padding-top: 5%;
 	padding-bottom: 6%
+}
+.headshowcase{
+	margin-top: 150px;
+	margin-bottom: 60px;
 }
 
 .styletext {
@@ -8476,7 +8490,7 @@ a.CTA_buttons_header:hover{
 		height: 182px;
 	}
 	.pricingtabs>div{
-		padding: 35px 25px;
+		padding: 18px 25px;
 		// border: 2px solid #E40191;
 		margin: 20px;
 	}
@@ -8488,7 +8502,7 @@ a.CTA_buttons_header:hover{
 		text-align: center;
 		border: 2px solid #E40191;
 		background: rgba(255, 255, 255, 0.22);
-		border-radius: 16px;
+		border-radius: 5px;
 		// box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 		backdrop-filter: blur(6.3px);
 		-webkit-backdrop-filter: blur(6.3px);
@@ -8497,6 +8511,11 @@ a.CTA_buttons_header:hover{
 		font-size: 15px;
 		// width: 60%;
 		margin: auto;
+	}
+	.collg2{
+		flex: 0 0 auto;
+        width: 19%;
+		
 	}
 
 	// .pricingtabs>div:nth-child(2)>p{
@@ -8512,6 +8531,12 @@ a.CTA_buttons_header:hover{
 		font-weight: 500;
 		margin-bottom: 60px;
 	}
+	#duration1{
+		font-size: 16px;
+		color: #7C7C7C;
+		font-weight: 500;
+		margin-bottom: 60px;
+	}
 	.cost{
 		font-weight: 600;
 		color: #000;
@@ -8520,7 +8545,7 @@ a.CTA_buttons_header:hover{
 	.feature_block{
 		line-height: 1;
 		// margin-top: 130px;
-		margin-bottom: 80px;
+		margin-bottom: 40px;
 	}
 	
 	.feature_name{
@@ -8542,7 +8567,7 @@ a.CTA_buttons_header:hover{
 		line-height: 1;
 		padding: 30px 35px 0px 35px;
 		// padding: 30px 35px;
-		margin-bottom: 68px;
+		margin-bottom: 50px;
 	}
 
 	.feature_item2{
@@ -8550,6 +8575,13 @@ a.CTA_buttons_header:hover{
 		border-bottom: 1px solid #D2D2D2;
 		padding-bottom: 9px
 	}	
+
+	.feature_item3{
+		font-size: 15px;
+		border-bottom: 1px solid #D2D2D2;
+		padding-bottom: 9px;
+		color: #50FF33;
+	}
 	.header--builder{
 		padding-top: 2%;
 	}
@@ -8929,11 +8961,9 @@ a.CTA_buttons_header:hover{
 		.cf-heading{
 			width: 100%;
 			margin-bottom: 4%;
+			font-size: 24px;
+			line-height: 27px;
 		  }
 	}
-
-/* ---
-	Skin Options
----*/
 
 @import "skin-options" ;

@@ -174,8 +174,8 @@ const CFPricingBar = ( { bg, hiddenHeading } ) => {
                             <p className="feature_item">Ratios</p>
                         </div>
                   </div>
-                  <div className="col-lg-2 col-sm-10">
-                        <h4>Standard</h4>
+                  <div className="collg2 col-sm-10">
+                        <p className="styleheadingprice">Standard</p>
                         {/* <p><span className="cost">₹1,50,000</span> / mon</p> */}
                         <p><span className="cost">₹1,50,000</span> / mon</p>
                         <p id="duration">1 month / 10 minutes of content 2 Days / Full Shift</p>
@@ -214,7 +214,7 @@ const CFPricingBar = ( { bg, hiddenHeading } ) => {
                       
                   </div>
                   <div className="col-lg-2 col-sm-10">
-                        <h4>Pro</h4>
+                  <p className="styleheadingprice">Pro</p>
                         <p><span className="cost">₹1,70,000</span> / mon</p>
                         <p id="duration">1 month / 15 minutes of content 4 Days / Full Shift</p>
                         <a className="CTA_buttons_m" href="#">Purchase</a>
@@ -251,40 +251,40 @@ const CFPricingBar = ( { bg, hiddenHeading } ) => {
                         </div>
                   </div>
                   <div className="col-lg-2 col-sm-10 bgdark">
-                        <h4>Advance</h4>
-                        <p><span className="cost">₹2,50,000</span> / mon</p>
-                        <p id="duration">1 month / 20 minutes of content 8 Days / Full Shift</p>
+                  <p className="styleheadingprice">Advance</p>
+                        <p><span className="cost" style={{color:"white"}}>₹2,50,000</span> / mon</p>
+                        <p id="duration1">1 month / 20 minutes of content 8 Days / Full Shift</p>
                         <a className="CTA_buttons_m" href="#">Purchase</a>
 
                         <div className="packspacer"></div>
                         
                         <div className="feature_block2">
-                              <p className="feature_item2">3</p>
-                              <p className="feature_item2">6</p>
-                              <p className="feature_item2">3</p>
-                              <p className="feature_item2">✔</p>
-                              {/* <p className="feature_item2"><img src={Tick.src} alt="" srcset="" /></p> */}
+                              <p className="feature_item3">3</p>
+                              <p className="feature_item3">6</p>
+                              <p className="feature_item3">3</p>
+                              <p className="feature_item3">✔</p>
+                              {/* <p className="feature_item3"><img src={Tick.src} alt="" srcset="" /></p> */}
                         </div>
                         <div className="feature_block2">
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
                         </div>
                         <div className="feature_block2">
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
                         </div>
                         <div className="feature_block2">
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
-                              <p className="feature_item2">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
+                              <p className="feature_item3">✔</p>
                         </div>
                   </div>
               </div>
