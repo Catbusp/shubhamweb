@@ -103,12 +103,11 @@ const AboutSection = () => {
               <Link className="CTA_buttons buutonmy" href="/contact">Let's Connect</Link>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 side_about_img">
-              {/* <img src={Side_about.src} className='w-100' alt="" /> */}
               <div className="about-stats">
                 <div className="statsbox">
                     <img src={Likes.src} alt="" />
                     <div>
-                      <h2 className="text-white">54%</h2>
+                      <h2 className="text-white">55%</h2>
                       <p>User Satisfaction</p>
                     </div>
                 </div>
