@@ -57,7 +57,8 @@ const Slidertest = () => {
                     <img src={Gpec} alt="GJEPC" />
                     <img src={cocaC} alt="Ministry of Ayush" />
                     <img src="/images/whiteicons/Vector-6.png" alt="Council of Architecture" />
-                    {/* <img src="/images/whiteicons/Cocacola_logo.png" alt="Coca Cola" /> */}
+                    <img src="/images/whiteicons/logo.png" alt="" />
+                    <img src="/images/whiteicons/Cocacola_logo.png" alt="Coca Cola" />
                 </div>
             </div>
 		</section>
